@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_all_ja.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>久米村家譜</title>
+                <respStmt>
+                    <resp>transcription</resp>
+                    <orgName>沖縄の歴史情報研究会</orgName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>TEI Version</edition>
+                <respStmt>
+                    <persName>Chinatsu Tomita</persName>
+                    <resp>TEI encoding</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>沖縄の歴史情報研究会</distributor>
+                <idno type="研究課題/領域番号">06208102 </idno>
+                <ref target="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-06208102/">
+                    沖縄の歴史情報研究</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+                    <monogr>
+                        <editor>那覇市企画部市史編集室</editor>
+                        <title>那覇市史 資料編第1巻6 家譜資料2</title>
+                        <idno type="国立国会図書館書誌ID">000001469074</idno>
+                        <idno type="DOI">10.11501/9773364</idno>
+                        <imprint>
+                            <publisher>那覇市企画部市史編集室</publisher>
+                            <pubPlace>沖縄県那覇市</pubPlace>
+                            <date when="1980">1980-3-25</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <listPlace>
+                    <place xml:id="福州琉球館">
+                        <placeName>福州琉球館</placeName>
+                        <location>
+                            <geo resp="tomita"
+                                source="https://goo.gl/maps/yY7RFieNpAyMiFmB6">
+                                26.067548167175556, 119.31713986572119
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="八重山">
+                        <placeName>石垣島</placeName>
+                        <location>
+                            <geo resp="tomita"
+                                source="https://goo.gl/maps/w469Dbb6wBxeuDuPA">
+                                24.338327107585798, 124.1489963484789
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="宮古島">
+                        <placeName>宮古島</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/mVfwEdDQPhaPGwLW8">
+                                24.806068259977504, 125.27501021738428
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="慶良間">
+                        <placeName>慶良間諸島</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/cPk1h7SsMy783jiFA">
+                                26.226637119971166, 127.3019827392869
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="久米島">
+                        <placeName>久米島</placeName>
+                        <location>
+                            <geo  resp="tomita" 
+                                source="https://goo.gl/maps/Z9Qab4rXGPi5KqGP6">
+                                26.341602997974565, 126.75376082039158
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="福州">
+                        <placeName>福州</placeName>
+                        <location>
+                            <geo resp="tomita"
+                                source="https://goo.gl/maps/U8eYWimX69fYjaGC7">
+                                26.07272824963627, 119.3017028558756
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="福建省">
+                        <placeName>福建省</placeName>
+                    </place>
+                    <place xml:id="伊是名島">
+                        <placeName>伊是名島</placeName>
+                        <location>
+                            <geo source="tomita" 
+                                resp="https://goo.gl/maps/pJxEhHxkg9HsYqqY6">
+                                26.937170104461764, 127.94153209473782
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="那覇">
+                        <placeName>那覇</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/KZthWJWgkvzcgmw26">
+                                26.210814186015487, 127.67020548283139
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="定海">
+                        <placeName>定海</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/PuVHVNokyezh985Z6">
+                                30.006104349942618, 122.09817091523583
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="怡山院">
+                        <placeName>怡山院</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/pErf2idTKnqmkG3e6">
+                                26.069329796744164, 119.51451174837271
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="薩摩">
+                        <placeName>薩摩</placeName>
+                        <location>
+                            <geo resp="tomita" source="https://goo.gl/maps/X97TwjWjc5y1pG3q8">
+                                31.580616499790032, 130.569094642926
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="山川">
+                        <placeName>山川</placeName>
+                        <location>
+                            <geo resp="tomita" 
+                                source="https://goo.gl/maps/9tSCr55gX6qXGKuJ7">
+                                31.205066743541522, 130.63478519526214
+                            </geo>
+                        </location>
+                    </place>
+                    <place xml:id="五虎門">
+                        <placeName>五虎門</placeName>
+                        <location>
+                            <geo resp="tomita" source="https://goo.gl/maps/YijGsTVnmvDHY7AT8">
+                                26.14769343010253, 119.674918084139
+                            </geo>
+                        </location>
+                    </place>
+                </listPlace>
+                <listPerson>
+                    <person xml:id="王可法_17-2020">
+                        <persName>王可法</persName>
+                    </person>
+                    <person xml:id="王裕之_17-2120_05">
+                        <persName>王裕之</persName>
+                    </person>
+                    <person xml:id="王三錫_17-2120_06">
+                        <persName>王三錫</persName>
+                    </person>
+                    <person xml:id="王三徳_17-2120_06">
+                        <persName>王三徳</persName>
+                    </person>
+                    <person xml:id="王三秀_17-2120_06">
+                        <persName>王三秀</persName>
+                    </person>
+                    <person xml:id="王延璜_17-2120_07">
+                        <persName>王延璜</persName>
+                    </person>
+                    <person xml:id="王廷瑛_17-2120_07">
+                        <persName>王廷瑛</persName>
+                    </person>
+                    <person xml:id="王廷璋_17-2120_07">
+                        <persName>王廷璋</persName>
+                    </person>
+                    <person xml:id="王秉乾_17-2120_07">
+                        <persName>王秉乾</persName>
+                    </person>
+                    <person xml:id="王秉懿_17-2120_07">
+                        <persName>王秉懿</persName>
+                    </person>
+                    <person xml:id="王秉謙_17-2120_07">
+                        <persName>王秉謙</persName>
+                    </person>
+                    <person xml:id="王秉典_17-2120_07">
+                        <persName>王秉典</persName>
+                    </person>
+                    <person xml:id="王秉和_17-2120_07">
+                        <persName>王秉和</persName>
+                    </person>
+                    <person xml:id="王朝銓_17-2120_07">
+                        <persName>王朝銓</persName>
+                    </person>
+                    <person xml:id="王朝鼎_17-2120_07">
+                        <persName>王朝鼎</persName>
+                    </person>
+                    <person xml:id="王朝鐸_17-2120_07">
+                        <persName>王朝鐸</persName>
+                    </person>
+                    <person xml:id="王朝紳_17-2120_07">
+                        <persName>王朝紳</persName>
+                    </person>
+                    <person xml:id="王朝鋐_17-2120_07">
+                        <persName>王朝鋐</persName>
+                    </person>
+                    <person xml:id="王世儀_17-2120_08">
+                        <persName>王世儀</persName>
+                    </person>
+                    <person xml:id="王世範_17-2120_08">
+                        <persName>王世範</persName>
+                    </person>
+                    <person xml:id="王世則_17-2120_08">
+                        <persName>王世則</persName>
+                    </person>
+                    <person xml:id="王世模_17-2120_08">
+                        <persName>王世模</persName>
+                    </person>
+                    <person xml:id="王賜纓_17-2120_08">
+                        <persName>王賜纓</persName>
+                    </person>
+                    <person xml:id="王春暉_17-2020_08">
+                        <persName>王春暉</persName>
+                    </person>
+                    <person xml:id="王春曦_17-2020_08">
+                        <persName>王春曦</persName>
+                    </person>
+                    <person xml:id="王春暘_17-2120_08">
+                        <persName>王春暘</persName>
+                    </person>
+                    <person xml:id="王受祉_17-2120_08">
+                        <persName>王受祉</persName>
+                    </person>
+                    <person xml:id="王受祐_17-2120_08">
+                        <persName>王受祐</persName>
+                    </person>
+                    <person xml:id="王受福_17-2120_08">
+                        <persName>王受福</persName>
+                    </person>
+                    <person xml:id="真鶴_17-2120_06">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真亀_17-2120_06">
+                        <persName>王氏真亀</persName>
+                    </person>
+                    <person xml:id="真満_17-2120_06">
+                        <persName>王氏真満</persName>
+                    </person>
+                    <person xml:id="真那武樽_17-2120_06">
+                        <persName>王氏真那武樽</persName>
+                    </person>
+                    <person xml:id="真鶴a_17-2120_07">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真牛a_17-2120_07">
+                        <persName>王氏真牛</persName>
+                    </person>
+                    <person xml:id="真鶴b_17-2120_07">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真牛b_17-2120_07">
+                        <persName>王氏真牛</persName>
+                    </person>
+                    <person xml:id="真満_17-2120_07">
+                        <persName>王氏真満</persName>
+                    </person>
+                    <person xml:id="真呉勢_17-2120_07">
+                        <persName>王氏真呉勢</persName>
+                    </person>
+                    <person xml:id="真鶴c_17-2120_07">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真牛c_17-2120_07">
+                        <persName>王氏真牛</persName>
+                    </person>
+                    <person xml:id="乙真佐金_17-2120_07">
+                        <persName>王氏乙真佐金</persName>
+                    </person>
+                    <person xml:id="真鶴a_17-2120_08">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真牛a_17-2120_08">
+                        <persName>王氏真牛</persName>
+                    </person>
+                    <person xml:id="真蒲戸a_17-2120_08">
+                        <persName>王氏真蒲戸</persName>
+                    </person>
+                    <person xml:id="真鶴b_17-2120_08">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="真牛b_17-2120_08">
+                        <persName>王氏真牛</persName>
+                    </person>
+                    <person xml:id="真鶴c_17-2120_08">
+                        <persName>王氏真鶴</persName>
+                    </person>
+                    <person xml:id="思戸_17-2120_08">
+                        <persName>王氏思戸</persName>
+                    </person>
+                    <person xml:id="真牛c_17-2120_08">
+                        <persName>王氏真牛</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>このファイルは、文部省科学研究費補助金重点領域研究「沖縄の歴史情報研究」(領域番号:110)
+                    (平成6年度-平成9年度)CD-ROM版研究成果報告書第５巻所収のデータをTEIに準拠させたものです。 <ref
+                        target="https://ci.nii.ac.jp/ncid/BA4021040X">沖縄の歴史情報(CD-ROM)</ref></p>
+            </projectDesc>
+            <refsDecl>
+                <p>「氏集番号」は那覇市発行『氏集』に掲載されている家譜目録に付与された固有IDをさす</p>
+                <ab>
+                    <bibl>
+                        <title>氏集 : 首里・那覇 第4版</title>
+                        <editor>那覇市市民文化部歴史資料室</editor>
+                        <publisher>那覇市市民文化部歴史資料室</publisher>
+                        <date when="2004">2004.3</date>
+                        <idno type="国立国会図書館書誌ID">000007374366</idno>
+                    </bibl>
+                </ab>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="zh-JP">中国語</language>
+            </langUsage>
+            <calendarDesc>
+                <calendar xml:id="cal_CL">
+                    <p>Chinese Lunar Era</p>
+                </calendar>
+            </calendarDesc>
+        </profileDesc>
+    </teiHeader>
+    <text type="genealogy">
+        <body>
+            <pb n="1"/>
+            <div n="17-2120" type="氏集番号">
+                <tree n="17-2120" ord="partial" arity="7" order="43">
+                    <root value="王裕之_17-2120_05"
+                        children="#真鶴_17-2120_06 #王三錫_17-2120_06 #真亀_17-2120_06 #真満_17-2120_06 #王三徳_17-2120_06真那武樽 #王三秀_17-2120_06">
+                        <label>元祖諱立思號肖國原是福建漳州府龍渓縣人也萬暦十九年奉17-2120_06
+                                聖旨始遷中山以補三十六姓二十八年庚子奉使為補貢通事到閩地卒嗣後尸棺其弟王立威帯同故土四世<persName
+                                sameAs="王可法_17-2120">可法</persName>第二子也 小宗諱裕之</label>
+                    </root>
+                    <iNode value="真鶴_17-2120_06" parent="#王裕之_17-2120_05" children="#unknown">
+                        <label>女眞鶴</label>
+                    </iNode>
+                    <iNode value="王三錫_17-2120_06" parent="#王裕之_17-2120_05"
+                        children="#真鶴a_17-2120_07 #王延璜_17-2120_07 #真牛a_17-2120_07 #王廷瑛_17-2120_07 #王廷璋_17-2120_07">
+                        <label>三錫</label>
+                    </iNode>
+                    <iNode value="真亀_17-2120_06" parent="#王裕之_17-2120_05" children="#unknown">
+                        <label>女眞龜</label>
+                    </iNode>
+                    <iNode value="真満_17-2120_06" parent="#王裕之_17-2120_05" children="#unknown">
+                        <label>女眞滿</label>
+                    </iNode>
+                    <iNode value="王三徳_17-2120_06" parent="#王裕之_17-2120_05"
+                        children="#真鶴b_17-2120_07 #真牛b_17-2120_07 #王秉乾_17-2120_07 #王秉懿17-2120_07 #王秉謙_17-2120_07 #真満_17-2120_07 #王秉典_17-2120_07 #真呉勢_17-2120_07 #王秉和_17-2120_07">
+                        <label>三徳</label>
+                    </iNode>
+                    <iNode value="真那武樽_17-2120_06" parent="#王裕之_17-2120_05" children="#unknown">
+                        <label>女眞那武樽</label>
+                    </iNode>
+                    <iNode value="王三秀_17-2120_06" parent="#王裕之_17-2120_05"
+                        children="#王朝銓_17-2120_07 #王朝鼎_17-2120_07 #真鶴c_17-2120_07 #王朝鐸_17-2120_07 #17-2120_07王朝紳 #王朝鋐_17-2120_07 #真牛c_17-2120_07 #乙真佐金_17-2120_07">
+                        <label>三秀</label>
+                    </iNode>
+                    <iNode value="真鶴a_17-2120_07" parent="#王三錫_17-2120_06" children="#unknown">
+                        <label>女眞鶴</label>
+                    </iNode>
+                    <iNode value="王延璜_17-2120_07" parent="#王三錫_17-2120_06" children="#NoChild">
+                        <label>延璜</label>
+                    </iNode>
+                    <iNode value="真牛a_17-2120_07" parent="#王三錫_17-2120_06" children="#unknown">
+                        <label>女眞牛</label>
+                    </iNode>
+                    <iNode value="王廷瑛_17-2120_07" parent="#王三錫_17-2120_06" children="#NoChild">
+                        <label>廷瑛</label>
+                    </iNode>
+                    <iNode value="王廷璋_17-2120_07" parent="#王三錫_17-2120_06" children="#NoChild">
+                        <label>廷璋</label>
+                    </iNode>
+                    <iNode value="真鶴b_17-2120_07" parent="#王三徳_17-2120_06" children="#unknown">
+                        <label>女眞鶴</label>
+                    </iNode>
+                    <iNode value="真牛b_17-2120_07" parent="#王三徳_17-2120_06" children="#unknown">
+                        <label>女眞牛</label>
+                    </iNode>
+                    <iNode value="王秉乾_17-2120_07" parent="#王三徳_17-2120_06" children="#NoChild">
+                        <label>秉乾</label>
+                    </iNode>
+                    <iNode value="王秉懿_17-2120_07" parent="#王三徳_17-2120_06"
+                        children="#真牛a_17-2120_08 #真蒲戸a_17-2120_08">
+                        <label>秉懿</label>
+                    </iNode>
+                    <iNode value="王秉謙_17-2120_07" parent="#王三徳_17-2120_06"
+                        children="#17-2120_08王世儀 #17-2120_08真鶴b #17-2120_08王世範 #真牛b_17-2120_08">
+                        <label>秉謙</label>
+                    </iNode>
+                    <iNode value="真満_17-2120_07" parent="#王三徳_17-2120_06" children="#unknown">
+                        <label>女眞滿</label>
+                    </iNode>
+                    <iNode value="王秉典_17-2120_07" parent="#王三徳_17-2120_06"
+                        children="#真鶴c_17-2120_08 #思戸_17-2120_08">
+                        <label>秉典</label>
+                    </iNode>
+                    <iNode value="真呉勢_17-2120_07" parent="#王三徳_17-2120_06" children="#unknown">
+                        <label>女眞呉勢</label>
+                    </iNode>
+                    <iNode value="王秉和_17-2120_07" parent="#王三徳_17-2120_06"
+                        children="#王春暉_17-2120_08 #王春曦_17-2120_08 #真鶴d_17-2120_08 #王春暘_17-2120_08 #真嘉戸_17-2120_08 #真蒲戸b_17-2120_08">
+                        <label>秉和</label>
+                    </iNode>
+                    <iNode value="王朝銓_17-2120_07" parent="#王三秀_17-2120_06"
+                        children="#王受祉_17-2120_08 #真鶴a_17-2120_08 #王受祐_17-2120_08 #王受福_17-2120_08">
+                        <label>朝銓</label>
+                    </iNode>
+                    <iNode value="王朝鼎_17-2120_07" parent="#王三秀_17-2120_06" children="#NoChild">
+                        <label>朝鼎</label>
+                    </iNode>
+                    <iNode value="真鶴c_17-2120_07" parent="#王三秀_17-2120_06" children="#unknown">
+                        <label>女眞鶴</label>
+                    </iNode>
+                    <iNode value="王朝鐸_17-2120_07" parent="#王三秀_17-2120_06"
+                        children="#真牛c_17-2120_08">
+                        <label>朝鐸</label>
+                    </iNode>
+                    <iNode value="王朝紳_17-2120_07" parent="#王三秀_17-2120_06" children="#NoChild">
+                        <label>朝紳</label>
+                    </iNode>
+                    <iNode value="王朝鋐_17-2120_07" parent="#王三秀_17-2120_06" children="#NoChild">
+                        <label>朝鋐</label>
+                    </iNode>
+                    <iNode value="真牛c_17-2120_07" parent="#王三秀_17-2120_06" children="#unknown">
+                        <label>女眞牛</label>
+                    </iNode>
+                    <iNode value="乙真佐金_17-2120_07" parent="王三秀_17-2120_06" children="#unknown">
+                        <label>女乙眞佐金</label>
+                    </iNode>
+                    <leaf value="王受祉_17-2120_08" parent="#王朝銓_17-2120_07">
+                        <label>受祉</label>
+                    </leaf>
+                    <leaf value="真鶴a_17-2120_08" parent="#王朝銓_17-2120_07">
+                        <label>女眞鶴</label>
+                    </leaf>
+                    <leaf value="王受祐_17-2120_08" parent="#王朝銓_17-2120_07">
+                        <label>受祐</label>
+                    </leaf>
+                    <leaf value="王受福_17-2120_08" parent="#王朝銓_17-2120_07">
+                        <label>受福</label>
+                    </leaf>
+                    <leaf value="真牛a_17-2120_08" parent="#王秉懿_17-2120_07">
+                        <label>女眞牛</label>
+                    </leaf>
+                    <leaf value="真蒲戸a_17-2120_08" parent="#王秉懿_17-2120_07">
+                        <label>女眞蒲戸</label>
+                    </leaf>
+                    <leaf value="王世儀_17-2120_08" parent="#王秉謙_17-2120_07">
+                        <label>世儀</label>
+                    </leaf>
+                    <leaf value="真鶴b_17-2120_08" parent="#王秉謙_17-2120_07">
+                        <label>女眞鶴</label>
+                    </leaf>
+                    <leaf value="王世範_17-2120_08" parent="#王秉謙_17-2120_07">
+                        <label>世範</label>
+                    </leaf>
+                    <leaf value="真牛b_17-2120_08" parent="#王秉謙_17-2120_07">
+                        <label>女眞牛</label>
+                    </leaf>
+                    <leaf value="真鶴c_17-2120_08" parent="#王秉典_17-2120_07">
+                        <label>女眞鶴</label>
+                    </leaf>
+                    <leaf value="思戸_17-2120_08" parent="#王秉典_17-2120_07">
+                        <label>女思戸</label>
+                    </leaf>
+                    <leaf value="真牛c_17-2120_08" parent="#王朝鐸_17-2120_07">
+                        <label>女眞牛</label>
+                    </leaf>
+                </tree>
+                <pb n="2"/>
+                <ab type="title">王　姓　家　譜</ab>
+                <ab>紀　録</ab>
+                <div sameAs="#王裕之_17-2120_05">
+                    <ab>
+                        <s>五世正議大夫諱<forename type="諱">裕之</forename>（<roleName>小渡親雲上</roleName>）</s>
+                        <s>童名<addName type="童名">眞徳</addName>字<addName type="字">能容</addName>號<addName type="号">安仁</addName>行二<date calendar="#cal_CL" when="1690">康煕二十九年</date>庚午十一月二十七日申時生<date when="1752">乾隆十七年</date>壬申八月初二日卯時卒壽六十三葬於海藏院後山墓</s>
+                        <s>父<persName sameAs="#王可法_17-2020">可法</persName></s>
+                        <s>母<persName>梅氏</persName></s>
+                        <s>室<persName>蔡氏眞鶴金</persName><date when="1691">康煕三十年</date>辛未閏七月初三日生<date when="1775">乾隆四十年</date>乙未十一月十九日申時卒享年八十五號<addName type="号">窈淑</addName></s>
+                        <s>長男<persName sameAs="#王三錫_17-2120_06">三鍚</persName></s>
+                        <s>次男<persName sameAs="#王三徳_17-2120_06">三徳</persName>（兄三鍚因生子早亡統系之絶稟於朝廷以繼其統）</s>  
+                        <s>三男<persName sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                        <s>長女<persName sameAs="#真鶴_17-2120_06">眞鶴</persName><date when="1714">康煕五十三年</date>甲午九月初三日子時生</s>
+                        <s>次女<persName sameAs="#真亀_17-2120_06">眞龜</persName><date when="1721">康煕六十年</date>辛丑八月十七日亥時生<date when="1727">雍正五年</date>丁未五月二十日死享年七</s>
+                        <s>三女<persName sameAs="#真満_17-2120_06">眞滿</persName><date when="1725">雍正三年乙</date>巳九月二十一日生</s>
+                        <s>四女<persName sameAs="#真那武樽_17-2120_06">眞那武樽</persName><date when="1731">雍正九年</date>辛亥九月十八日亥時生<date calendar="#cal_CL" when="1779">乾隆四十四年</date>己亥十一月十二日亥時死享年四十九</s>
+                    </ab>
+                    <ab type="rank"> 官　爵
+                        <s><date calendar="#cal_CL" when="1701">康煕四十年</date>辛巳八月十六日為<name type="rank">若秀才</name>（賜年俸米五斗）</s>
+                        <s><date calendar="#cal_CL" when="1704">康煕四十三年</date>甲申八月十六日結欹髻挙<name type="rank">秀才</name>（賜年俸米壹石）</s>
+                        <s><date calendar="#cal_CL" when="1717">康煕五十六年</date>丁酉六月十五日陞<name type="rank">通事</name>（賜年俸米貳石）</s>
+                        <s><date calendar="#cal_CL" when="1720">康煕五十九年</date>庚子三月十二日擢<name type="rank">黄冠</name>（賜年俸米貳石五斗）</s>
+                        <s><date calendar="#cal_CL" when="1726">雍正四年</date>丙午二月初二日擢<name type="rank">當座</name></s>
+                        <s><date calendar="#cal_CL" when="1727">雍正五年</date>丁未十二月初一日陞<name type="rank">都通事</name>擢<name type="rank">座敷</name></s>
+                        <s><date calendar="#cal_CL" when="1738">乾隆三年</date>戊午六月十二日陞<name type="rank">中議大夫</name></s>
+                        <s><date calendar="#cal_CL" when="1740">乾隆五年</date>庚申六月十五日陞<name type="rank">正議大夫</name></s>
+                        <s><date calendar="#cal_CL" when="1748">乾隆十三年</date>戊辰六月十五日擢<name type="rank">申口座</name></s>
+                    </ab>
+                    <ab type="achievement">勲　庸
+                        <s type="勤学" xml:id="勤学"><date calendar="#cal_CL" when="1717-10-12" corresp="#勤学" synch="#任命">康煕五十六年丁酉九月初八日為<name type="job">讀書習禮</name>事</date>隨<persName><name type="job">接貢存留通事</name><name type="唐名">紅士顯</name><roleName>伊差川親雲上</roleName></persName><date calendar="#cal_CL" when="1717-11-17" corresp="#勤学" synch="#那覇開船">十月十五日<placeName sameAs="#那覇">那覇</placeName>開船</date><date calendar="#cal_CL" when="1717-12-03" corresp="#勤学" synch="#久米島">十一月初一日<placeName sameAs="#久米島">久米山</placeName></date>開船<date calendar="#cal_CL" when="1717-12-07" corresp="#勤学" synch="#福州">初五日到<placeName sameAs="#福州">閩</placeName></date><date calendar="#cal_CL" when="1719-07-16" corresp="#勤学" synch="#帰国">己亥五月二十九</date>歸國</s>
+                        <s><date calendar="#cal_CL" when="1720">康煕五十九年</date>庚子三月十二日奉　命為<name type="job">訓詁師</name>（賜年俸米貳石勤職三年）</s>
+                        <s type="進貢" xml:id="進貢"><date calendar="#cal_CL" when="1726-03-05" corresp="#進貢" synch="#任命">雍正四年丙午二月初二日奉　命為<name type="job">進貢二號船通事</name></date><date calendar="#cal_CL" when="1726-12-11" corresp="#進貢" synch="#那覇開船">十二月十一日隨<persName><name type="job">耳目官</name><name type="唐名">毛汝龍</name><roleName>田里親雲上</roleName><forename type="名乗">盛武</forename></persName><persName><name type="job">正議大夫</name><name type="唐名" >鄭廷極</name><roleName>宇地原親雲上</roleName></persName><placeName sameAs="#那覇">那覇</placeName>一齊開洋</date><date calendar="#cal_CL" when="1727-01-26">翌年丁未正月初五日</date>在<placeName sameAs="#久米島"
+                                >古米山</placeName>開洋初十日到<placeName>閩</placeName>公事已竣<date
+                                calendar="#cal_CL" when="1727-06-15">六月十五日</date><placeName
+                                sameAs="#五虎門">五虎</placeName>開洋<date calendar="#cal_CL"
+                                when="1727-06-15">二十日</date>歸國</s>
+                        <pb n="3"/>
+                        <s><date calendar="#cal_CL" when="1727">雍正五年</date>丁未十二月初一日奉　命為<name
+                                type="job">講解師</name>（勤職三年賜隨職年俸米貳石五斗）</s>
+                        <s type="進貢"><date when="1732-03-05">雍正十年壬子二月初九日</date>奉　使為<name type="job"
+                                >進貢二號船都通事</name><date calendar="#cal_CL" when="1733-01-14"
+                                >十一月二十九日</date>隨<persName><name type="job">耳目官</name><name type="唐名"
+                                    >温思明</name><roleName>森山親雲上</roleName><forename type="名乗"
+                                    >紹高</forename></persName><persName><name type="job"
+                                    >正議大夫</name><name type="唐名"
+                                >鄭儀</name><roleName>池宮城親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>一齊開船<date calendar="#cal_CL"
+                                when="1733-02-06">十二月二十二日</date>在<placeName sameAs="#久米島"
+                                >古米山</placeName>開船<date calendar="#cal_CL" when="1733-02-11"
+                                >本月二十七日</date>到<placeName sameAs="#福州">閩</placeName><date
+                                calendar="#cal-CL" when="1733-10-04">翌年癸丑八月十六日</date><placeName
+                                sameAs="#五虎門"
+                                >五虎門</placeName>開船無順風難一直去因此漸々到<placeName>温州海島北関</placeName>候風<date
+                                calendar="#cal_CL" when="1733-11-27">十月二十一日</date>開船<date
+                                calendar="#cal_CL" when="1733-12-06">十一月初一日</date>歸國</s>
+                        <s><date calendar="#cal_CL" when="1733">雍正十一年</date>癸丑十二月十四日奉　命陞<name
+                                type="job">長史司</name>（賜役知二十石）勤職四年</s>
+                        <s type="進貢"><date calendar="#cal_CL" when="1736-03-14"
+                                >乾隆元年丙辰二月初三日</date>奉　使為<name type="job" sameAs="進貢二号船都通事"
+                                >進貢貳號船都通事</name><date calendar="#cal_CL" when="1736-11-25"
+                                >十月二十三日</date>隨<persName><name type="job">耳目官</name><name type="唐名"
+                                    >毛光潤</name><roleName>野里親雲上</roleName><forename type="名乗"
+                                    >安年</forename></persName><persName><name type="job"
+                                    >正議大夫</name><name type="唐名"
+                                >鄭國柱</name><roleName>屋部親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>一齊開船<date calendar="#cal_CL"
+                                when="1736-12-05">十一月初四日</date>在<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>開洋<date calendar="#cal_CL" when="1736-12-11"
+                                >初十</date>日到<placeName sameAs="#福州">閩</placeName><date
+                                calendar="#cal-CL" when="1737-09-02">翌年丁巳八月初八日</date>公事已竣<placeName
+                                sameAs="#五虎門">五虎門</placeName>開洋<date calendar="#cal_CL"
+                                when="1737-09-15">二十一日</date>歸國</s>
+                        <s><date calendar="#cal_CL" when="1739"
+                                >乾隆四年</date>己未九月十三日奉　命在於<placeName>南風御殿</placeName><persName
+                                sameAs="#王裕之_17-2120_05">裕之</persName>隨<persName><name type="job"
+                                    >御書院奉行</name><surname>向氏</surname><roleName>國頭親方</roleName><forename
+                                    type="名乗">朝齊</forename></persName>等（<persName
+                                sameAs="#王裕之_17-2120_05">裕之</persName>以中議大夫管奉行職）始管 <persName
+                                sameAs="乾隆帝">皇帝</persName>御書<name type="御書"
+                            >永祚瀛壖</name>四字臨寫作牌匾至于十二月初二日報竣</s> 　<s><date calendar="#cal_CL"
+                                when="1744">乾隆九年</date>甲子十二月十八日奉　命為<name type="job"
+                            >久米村惣與頭</name></s>
+                    </ab>
+                    <ab type="fief"> 采　地 　　<s><date calendar="#cal_CL" when="1739"
+                                >乾隆四年</date>己未十一月十五日拜授<placeName>恩納間切名嘉眞</placeName>地頭職</s>
+                                　　<s><date calendar="#cal_CL" when="1750"
+                                >乾隆十五年</date>庚午十二月二十日轉授<placeName>摩文仁間切小渡</placeName>地頭職</s>
+                    </ab>
+                    <ab type="honor"> 寵　榮 　　<s><date calendar="#cal_CL" when="1739"
+                                >乾隆四年己</date>未九月十三日奉　命在於<placeName>南風御殿</placeName>隨<persName><name
+                                    type="job"
+                                    >御書院奉行</name><surname>向氏</surname><roleName>國頭親方</roleName><forename
+                                    type="名乗">朝齊</forename></persName>等始管 <persName sameAs="乾隆帝"
+                                >皇帝</persName>御書<name type="御書"
+                            >永祚瀛壖</name>四字臨寫作匾歴額至于十二月初二日報竣因此本月二十五日 　<persName sameAs="尚敬王"
+                                >國主</persName>召賜宴於<placeName>御番所</placeName>奨賜上布貳疋於<placeName>下庫理御座</placeName></s>
+                    </ab>
+                    <ab type="marriage"> 婚　嫁 　　<s>長女<persName sameAs="#真鶴_17-2120_06"
+                                    >眞鶴</persName>適<persName><name type="唐名"
+                                    >鄭允迪</name><roleName>大嶺里之子</roleName></persName></s>
+                        <s>長男<persName sameAs="#王三錫_17-2120_06"
+                                    >三鍚</persName>娶<persName><surname>班氏</surname><roleName>外間筑登之親雲上</roleName><forename
+                                    type="名乗"
+                            >守氏</forename></persName>之長女<persName>思戸金</persName></s>
+                                　　<s>次男<persName sameAs="#王三徳_17-2120_06"
+                                    >三徳</persName>娶<persName><name type="rank">正議大夫</name><name
+                                    type="唐名"
+                                >梁珍</name><roleName>龜島親雲上</roleName></persName>四女<persName>眞鶴</persName></s>
+                                　　<s>次女<persName sameAs="#真満_17-2120_06"
+                                    >眞滿</persName>適<persName><name type="唐名"
+                                    >陳天鳳</name><roleName>幸喜秀才</roleName></persName></s>
+                                　　<s>三男<persName sameAs="#王三秀_17-2120_06"
+                                    >三秀</persName>娶<persName><name type="rank">中議大夫</name><name
+                                    type="唐名"
+                                >金宏</name><roleName>安次嶺里之子親雲上</roleName></persName>三女<persName>眞鶴</persName>再娶<persName><surname>魏氏</surname><roleName>高嶺里之子親雲上</roleName><addName>宗絢</addName></persName>長女<persName>眞鶴</persName>三娶<persName><name
+                                    type="唐名"
+                                >林大模</name><roleName>新垣通事親雲上</roleName></persName>三女<persName>眞龜</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王三錫_17-2120_06">
+                    <ab>六世<forename type="諱">三鍚</forename>
+                        <s>童名<addName type="童名">思五良</addName>字<addName type="字"
+                                >君榮</addName>號<addName type="號">日章</addName>行一<date when="1718"
+                                >康煕五十七年</date>戊戌三月十七日寅時生<date calendar="#cal_CL" when="1761"
+                                >乾隆二十六年</date>辛巳三月十九日辰時卒享年四十四葬于海藏院後墓</s>
+                        <s>父<persName sameAs="#王裕之_17-2120_05">裕之</persName></s>
+                                　　<s>母<persName>蔡氏</persName></s>
+                        <s>室<persName>班氏思戸金</persName><date calendar="#cal_CL" when="1724"
+                                >雍正二年</date>甲辰十一月二十一日生<date calendar="#cal_CL" when="1782"
+                                >乾隆四十七年</date>壬寅六月初五日卒號<addName type="号">妙涼</addName>享年五十九</s>
+                                　　<s>長男<persName sameAs="#王延璜_17-2120_07">延璜</persName></s>
+                        <s>次男<persName sameAs="#王廷瑛_17-2120_07">廷瑛</persName>（雖次男因兄<persName
+                                sameAs="#王延璜_17-2120_07">廷璜</persName>早死請訟為嫡子）</s> 　　<s>二男<persName
+                                sameAs="#王廷璋_17-2120_07">廷璋</persName></s>
+                        <s>長女<persName sameAs="#真鶴a_17-2120_07">眞鶴</persName><date when="1741"
+                                >乾隆六年</date>辛酉九月二十四日寅時生</s>
+                        <s>次女<persName sameAs="#真牛a_17-2120_07">眞牛</persName><date
+                                    calendar="#cal_CL" when="1750"
+                            >乾隆十五年</date>庚午十一月初四日亥時生</s>
+                    </ab>
+                    <ab type="rank"> 　　　官　爵 　<s><date calendar="#cal_CL" when="1752"
+                                >乾隆十七年</date>己酉八月十九日陞<name type="rank">若秀才</name></s>
+                        <s><date calendar="#cal_CL" when="1732">雍正十年</date>壬子二月十一日陞<name type="rank"
+                                >秀才</name>結欹髻（賜年俸米一石）</s>
+                        <s><date calendar="#cal_CL" when="1742">乾隆七年</date>壬戌六月十五日陞<name type="rank"
+                                >通事</name>擢<name type="rank">若里之子</name></s>
+                        <s><date calendar="#cal_CL" when="1746">乾隆十一年</date>丙寅六月十五日陸<name
+                                type="rank">黄冠</name></s>
+                        <s><date calendar="#cal_CL" when="1749">乾隆十四年</date>己巳十二月十五日擢<name
+                                type="rank">當座</name></s>
+                        <pb n="4"/>
+                        <s><date calendar="#cal_CL" when="1752">乾隆十七年</date>壬申十二月初一日陞<name
+                                type="rank">都通事</name>擢<name type="rank">座敷</name></s>
+                    </ab>
+                    <ab type="achievement"> 　　　勲　庸 <s type="勤学"><date calendar="#cal_CL" when="1742-12-24"
+                        >乾隆七年壬戌十一月二十八日</date>為<name type="job">讀書習禮</name>事隨<persName><name
+                                    type="job">進貢正議大夫</name><name type="唐名"
+                                    >蔡用弼</name><roleName>湖城親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開船<date calendar="#cal_CL" when="1742-12-27">十二月初一日</date>在<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>開船<date calendar="#cal_CL" when="1743-01-01">初六日</date>到<placeName sameAs="#福州"
+                                >閩</placeName><date calendar="#cal_CL" when="1744-11-30">甲子十月二十七日</date>隨<persName>大夫蔡用弼</persName><placeName
+                                sameAs="#五虎門"
+                                >五虎門</placeName>開船無順風漸往<placeName>温州外金郷</placeName><date calendar="#cal_CL" when="1745-01-11">十二月初九日</date>在<placeName>金郷</placeName>侯風開船<date calendar="#cal_CL" when="1745-01-15">十三日</date>漂到<placeName
+                                sameAs="#八重山">八重山</placeName><date calendar="#cal_CL" when="1745-06-24"
+                                    >乙丑五月二十五日</date>在<placeName>八重山</placeName>俟有順風開船<date calendar="#cal_CL" when="1745-07-01">六月初二日</date>歸國</s>
+                        <s><date calendar="#cal_CL" when="1747">乾隆十二年</date>丁卯十二月十三日奉　命為<name
+                                type="job">漏刻看役</name>（勤務五个月因病辭役）</s> 　<s><date calendar="#cal_CL"
+                                when="1751">乾隆十六年</date>辛未三月三十日為<name type="job"
+                            >西之平等諸按司講解師</name>勤職（此職三平等自此時始）</s> 　<s><date calendar="#cal_CL"
+                                when="1754">乾隆十九年</date>甲戌二月二十七日奉　憲令同<persName><name type="唐名"
+                                    >蔡永胤</name><roleName>湖城里之子親雲上</roleName></persName>為<name
+                                type="job">首里三平等諸按司講解師</name></s> 　<s><date calendar="#cal_CL"
+                                when="1755">乾隆二十年</date>乙亥二月十三日為<name type="job"
+                            >訓詁師</name>（俸祿六斛勤職四年）</s> 　<s><date calendar="#cal_CL" when="1755"
+                                >乾隆二十年</date>乙亥九月二十八日因<name>冊封使</name>将臨國為<name type="job"
+                                >天使館並脇宿當</name></s> 　<s><date calendar="#cal_CL" when="1756"
+                                >乾隆二十一年</date>丙子八月十五日為隨　封福州商人来討土人欠債事奉　憲令為<name type="job"
+                            >通事役</name></s> 　<s><date calendar="#cal_CL" when="1758"
+                                >乾隆二十三年</date>戊寅二月十三日為<name type="job">講解師</name>（賜年俸祿七斛）</s>
+                    </ab>
+                    <ab type="fief"> 　　　采　地 　<s><date when="1752"
+                                >乾隆十七年</date>壬申九月二十日襲父職授<placeName>摩文仁間切小渡</placeName>地頭職</s>
+                    </ab>
+                    <ab type="marriage"> 　　　婚　嫁 　<s>長女<persName sameAs="#真鶴a_17-2120_07"
+                                >眞鶴</persName>適<persName><name type="唐名"
+                                    >梁文徳</name><roleName>又吉通事親雲上</roleName></persName></s>
+                                　<s>次女<persName sameAs="#真牛a_17-2120_07"
+                                    >眞牛</persName>適<persName><surname>蔡氏</surname><roleName>古堅里之子親雲上</roleName><forename
+                                    type="名乗">政賀</forename></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王三徳_17-2120_06">
+                    <ab> 　<s>六世<forename type="諱">三徳</forename></s> 　　<s>童名<addName type="童名"
+                                >百歳</addName>字<addName type="字">君宜</addName>號<addName type="號"
+                                >日躋</addName>行二<date calendar="#cal_CL" when="1728"
+                                >雍正六年</date>戊申十月二十五日子時生<date calendar="#cal_CL" when="1779"
+                                >乾隆四十四年</date>己亥五月二十六日午時死享年五十二兄<persName sameAs="#王三錫_17-2120_06"
+                                >三鍚</persName>因生子早亡統系之絶<date calendar="#cal_CL" when="1803"
+                                >嘉慶八年</date>癸亥二月二十五日稟於朝廷以継其統</s>
+                        <s>父<persName sameAs="#王裕之_17-2120_05">裕之</persName></s>
+                                　　<s>母<persName>蔡氏</persName></s>
+                                　　<s>室<persName>梁氏眞鶴</persName><date when="1732"
+                                >雍正十年</date>壬子正月初八日生<date calendar="#cal_CL" when="1797"
+                            >嘉慶二年</date>丁巳四月初七日死享壽六（十六）</s> 　　<s>長男<persName
+                                sameAs="#王秉乾_17-2120_07">秉乾</persName></s> 　　<s>次男<persName
+                                sameAs="#王秉懿_17-2120_07">秉懿</persName></s> 　　<s>三男<persName
+                                sameAs="#王秉謙_17-2120_07">秉謙</persName></s> 　　<s>四男<persName
+                                sameAs="#王秉典_17-2120_07">秉典</persName></s> 　　<s>五男<persName
+                                sameAs="#王秉和_17-2120_07">秉和</persName></s> 　　<s>長女<persName
+                                sameAs="#真鶴b_17-2120_07">眞鶴</persName><date calendar="#cal_CL"
+                                when="1748">乾隆十三年</date>戊辰三月初十日丑時生</s> 　　<s>次女<persName
+                                sameAs="#真牛b_17-2120_07">眞牛</persName><date calendar="#cal_CL"
+                                when="1750">乾隆十五年</date>庚午八月初一日卯時生<date calendar="#cal_CL"
+                                when="1760">乾隆二十五年</date>庚辰九月二十五日亥時死享年十一號<addName type="号"
+                                >妙清信女</addName>葬于海藏院後墓</s> 　　<s>三女<persName sameAs="#真満_17-2120_07"
+                                >眞滿</persName><date calendar="#cal_CL" when="1765"
+                            >乾隆三十年</date>乙酉三月初五日卯時生</s> 　　<s>四女<persName sameAs="#真呉勢_17-2120_07"
+                                >眞呉勢</persName><date calendar="#cal_CL" when="1760"
+                            >乾隆三十五年</date>庚寅八月十一日未時生</s>
+                    </ab>
+                    <ab type="rank"> 官　爵 　<s><date calendar="#cal_CL" when="1739"
+                                >乾隆四年</date>己未八月十一日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1742">乾隆七年</date>壬戌八月初七日結欹髻挙<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1752"
+                                >乾隆十七年</date>壬申十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1756"
+                                >乾隆二十一年</date>丙子十二月初一日陞<name type="rank">黄冠</name></s> 　<s><date
+                                calendar="#cal_CL" when="1764">乾隆二十九年</date>甲申十二月初一日擢<name
+                                type="rank">當座</name></s> 　<s><date calendar="#cal_CL" when="1765"
+                                >乾隆三十年</date>乙酉十二月初一日陞<name type="rank">都通事</name>擢<name type="rank"
+                                >座敷</name></s>
+                    </ab>
+                    <ab type="achievement"> 勲　庸 　<s><date calendar="#cal_CL" when="1755"
+                                >乾隆二十年</date>乙亥九月二十八日因<name>冊封使</name>将臨國為<name type="job"
+                                sameAs="書簡司">墨當方</name></s> 　<s><date calendar="#cal_CL" when="1756"
+                                >乾隆二十一年</date>丙子六月三十日為　<name>封船</name>湾泊<placeName sameAs="久米島"
+                                >姑米山</placeName>恭請　金安事奉　命 <pb n="5"/> 為<name type="job"
+                                    >書簡司</name>七月初三日隨<persName><name type="job">法司官</name><name
+                                    type="唐名">馬宣哲</name><roleName>宮平親方</roleName><forename type="名乗"
+                                    >良廷</forename></persName><placeName sameAs="#那覇"
+                                >那覇</placeName>開船将過<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>風轉在西南難駕駛不得己到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>候風初九日見　封船在<placeName sameAs="#久米島"
+                                >姑米山</placeName>開船将直到<placeName sameAs="#那覇"
+                                >那覇</placeName>□<persName>馬宣哲</persName>船隻放洋隨同　<name>封船</name>回到<placeName>那覇港</placeName>
+                                　<date calendar="#cal_CL" when="1756">乾隆二十一年</date>丙子十二月初一日奉　命為<name
+                                type="job">漏刻看役</name>（在職四個月）</s>
+                        <s><date calendar="#cal_CL" when="1757">乾隆二十二年</date>丁丑三月二十四日奉　王命為<name
+                                type="job">憲書官相附</name>（隨職賜年俸祿三斛）</s> 　<s type="進貢"><date
+                                calendar="#cal_CL" when="1762-02-24">乾隆二十七年壬午二月初一日</date>奉　使為<name
+                                type="job" sameAs="進貢二号船総管">進貢二號船火長</name><date calendar="#cal_CL"
+                                when="1763-01-19">十二月初六日</date>隨<persName><name type="job"
+                                    >耳目官</name><name type="唐名"
+                                >馬國器</name><roleName>與那原親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >梁煌</name><roleName>當間親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>一齊開船<date calendar="#cal_CL"
+                                when="1763-01-19">同日</date>到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName><date calendar="#cal_CL" when="1763-01-24"
+                                >本月十一日</date>開船<date calendar="#cal_CL" when="1763-01-24"
+                                >同日</date>到<placeName sameAs="#久米山">姑米山</placeName><date
+                                calendar="#cal_CL" when="1763-01-31">同十八日</date>在彼地開洋<date
+                                calendar="#cal_CL" when="1763-02-04"
+                                >二十二日</date>遥見<placeName>台州府屬地三盤</placeName>隨用申針<date
+                                calendar="#cal_CL" when="1763-02-11"
+                                >二十九日</date>到<placeName>閩安鎮</placeName><date calendar="#cal_CL"
+                                when="1763-02-27">正月十五日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>呈請修船事理自<date calendar="#cal_CL" when="1763-06-22"
+                                >五月十二日</date>至<date calendar="#cal_CL" when="1763-07-09"
+                                >二十九日</date>寓中奥武趕修船隻凡百諸務全竣<date calendar="#cal_CL" when="1763-10-19"
+                                >九月十三日</date>離驛登船<date calendar="#cal_CL" when="1763-11-14"
+                                >十月初十日</date><placeName sameAs="#五虎門">五虎門</placeName>開船因無順風從潮漸進<date
+                                calendar="#cal_CL" when="1763-12-02"
+                                >二十八日</date>到<placeName>台州府砍門地方</placeName><date calendar="#cal_CL"
+                                when="1763-12-12">十一月八日</date>彼地解纜<date calendar="#cal_CL"
+                                when="1763-12-12">同日</date>到<placeName>乾江山地方</placeName><date
+                                calendar="#cal_CL" when="1763-12-13"
+                                >翌九日</date>彼地開船走到中洋遇風漂入<placeName sameAs="#八重山"
+                                >八重山地方</placeName><date calendar="#cal_CL" when="1764-05-12"
+                                >翌年四月十二日</date>彼地開船<date calendar="#cal_CL" when="1764-05-15"
+                                >十五日</date>歸到<placeName>那覇港</placeName></s> 　<s><date
+                                calendar="#cal_CL" when="1764">乾隆二十九年</date>甲申十月二十九日為<name
+                                type="job">協辦文繕役</name>兼務<name type="job">述作総師職</name>其勲績同用<name
+                                type="job">講解師</name>（俗呼<name type="job"
+                            >文組寄役</name>原是大夫都通事内達文者輪環務之若是則唐榮諸生無以由進總理司恐後文作衰廢請　命新設此職如是）</s> 　<s><date
+                                calendar="#cal_CL" when="1768"
+                                    >乾隆三十三年</date>戊子為講解事因于<persName><surname>向氏</surname><roleName>羽地按司</roleName><forename
+                                    type="名乗"
+                                    >朝英</forename></persName><persName><surname>向氏</surname><roleName>喜屋武親雲上</roleName><forename
+                                    type="名乗"
+                                    >朝昶</forename></persName><persName><surname>毛氏</surname><roleName>澤岻里主</roleName><forename
+                                    type="名乗"
+                            >安門</forename></persName>等請延自三月十二日居宿彼殿宅而毎日講解請乞上司准作唐榮諸務辮理之功次年十二月歸宅</s>
+                                　<s><date calendar="#cal_CL" when="1769"
+                                >乾隆三十四年</date>己丑十二月初一日奉　命為<name type="job"
+                            >司憲書官</name>（年俸五斛原是六斛因行國中省約減之）</s> 　<s><date calendar="#cal_CL"
+                                when="1760">乾隆三十五年</date>庚寅六月初一日為<name type="job"
+                            >講解師</name>（賜年俸七斛其内壹斛因國儉減少）</s> 　<s><date calendar="#cal_CL" when="1760"
+                                >乾隆三十五年</date>庚寅六月二十九日因<persName><name type="job">憲書官</name><name
+                                    type="唐名"
+                                >魏宗絢</name><roleName>高嶺里之子親雲上</roleName></persName>在叔父喪奉　憲令兼為<name
+                                type="job">署憲書官</name></s> 　<s type="進貢"><date calendar="#cal_CL"
+                                when="1772-04-17">乾隆三十七年壬辰三月十五日</date>為進貢事奉　使為<name type="job"
+                                sameAs="進貢船存留通事">存留通事</name>隨<persName><name type="job"
+                                    >耳目官</name><name type="唐名"
+                                >向宣謨</name><roleName>津嘉山親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >毛景成</name><roleName>許田親雲上</roleName></persName><date
+                                calendar="#cal_CL" when="1773-03-24">癸巳三月初二日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開洋<date calendar="#cal_CL"
+                                when="1773-03-25">同三日</date>到<placeName sameAs="#久米島"
+                                >姑米山</placeName><date calendar="#cal_CL" when="1773-04-22"
+                                >同閏三月初一日</date>在彼地開洋<date calendar="#cal_CL" when="1773-05-01"
+                                >同初十日</date>到<placeName sameAs="#福州">閩</placeName><date
+                                calendar="#cal_CL" when="1773-05-10">同十九日</date>安挿<placeName
+                                sameAs="#福州琉球館">館驛</placeName>公務全竣雖交代其職而有本國馬艦数隻飄来公務繁多<persName><name
+                                    type="job" sameAs="接貢船存留通事"
+                                >存留</name>阮承祐</persName>染病承耳目官正議大夫今護理其公務<date calendar="#cal_CL"
+                                when="1775-01-22">甲午十二月二十一日</date>離驛登船<date calendar="#cal_CL"
+                                when="1775-03-12">乙未二月十一日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開船因無順風従潮漸進到<placeName>三盤地方</placeName><date
+                                calendar="#cal_CL" when="1775-04-10">三月十一日</date>彼地開船走到中洋<date
+                                calendar="#cal_CL" when="1775-04-18">同十九日</date>遇風漂入<placeName
+                                sameAs="奄美大島">大島地方</placeName><date calendar="#cal_CL"
+                                when="1775-05-25">四月二十六日</date>彼地開船<date calendar="#cal_CL"
+                                when="1775-06-02">五月初五日</date>歸到<placeName>那覇港</placeName></s>
+                        <s>
+                            <date calendar="#cal_CL" when="1776"
+                                >乾隆四十一年</date>丙申正月二十五日奉　命為制定賞罰職原無此職但以本國従無賞罰定制而刑賞各官仍襲古例而擬議故輕重出入頗多不平矣爰命<persName>蔡世昌</persName><persName
+                                sameAs="#王三徳_17-2120_06">王三徳</persName>詳譯明清律例及集禮参以國制新制賞罰法典</s>
+                    </ab>
+                    <ab type="marriage"> 婚　嫁 　　<s>長男<persName sameAs="#王秉乾_17-2120_07"
+                                    >秉乾</persName>娶<persName><name type="唐名"
+                                    >楊式龍</name><roleName>名嘉地通事</roleName></persName>次女<persName>眞蒲戸</persName></s>
+                                　　<s>次男<persName sameAs="#王秉懿_17-2120_07"
+                                    >秉懿</persName>娶<persName><name type="rank">都通事</name><name
+                                    type="唐名"
+                                >梁灝</name><roleName>國吉里之子親雲上</roleName></persName>二女<persName>眞伊奴</persName>（復于父家）再娶<persName><name
+                                    type="唐名"
+                                >阮璧光</name><roleName>小渡里之子親雲上</roleName></persName>長女<persName>思戸</persName>（復于父家）</s>
+                                　　<s>三男<persName sameAs="#王秉謙_17-2120_07"
+                                    >秉謙</persName>娶<persName><name type="唐名"
+                                    >鄭永泰</name><roleName>上原里之子</roleName></persName>長女<persName>眞鶴</persName>（復于父家）再娶<persName><name
+                                    type="唐名"
+                                >林維新</name><roleName>金城里之子親雲上</roleName></persName>二女<persName>眞滿</persName>（復于父家）鄭氏眞鶴再来</s>
+                                　　<s>長女<persName sameAs="#真鶴b_17-2120_07"
+                                    >眞鶴</persName>適<persName><name type="唐名"
+                                    >毛秉義</name><roleName>許田里之子親雲上</roleName></persName></s>
+                                　　<s>三女<persName sameAs="#真満_17-2120_07"
+                                    >眞滿</persName>適<persName><name type="唐名"
+                                    >毛元會</name><roleName>阿賀嶺秀才</roleName></persName></s>
+                                　　<s>三男<persName sameAs="#王秉謙_17-2120_07"
+                                    >秉謙</persName>再娶<persName><name type="唐名"
+                                    >林維新</name><roleName>金城里之子親雲上</roleName></persName>二女<persName>眞滿</persName></s>
+                                　　<s>四男<persName sameAs="#王秉典_17-2120_07"
+                                    >秉典</persName>娶<persName><surname>楊氏</surname><roleName>平田通事親雲上</roleName><addName
+                                    type="諱">式柱</addName></persName>長女<persName>武樽金</persName></s>
+                                　　<s>四女<persName sameAs="#真呉勢_17-2120_07"
+                                    >真呉勢</persName>適<persName><name type="唐名"
+                                    >金永隆</name><roleName>古謝里之子親雲上</roleName></persName></s>
+                                　　<s>五男<persName sameAs="#王秉和_17-2120_07"
+                                    >秉和</persName>娶<persName><name type="唐名"
+                                    >林育龍</name><roleName>石原通事親雲上</roleName></persName>長女<persName>眞鶴</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王三秀_17-2120_06">
+                    <ab><s>六世<forename type="諱">三秀</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">君芳</addName>号<addName type="号"
+                                >日U+F0B8</addName>行三<date calendar="#cal_CL" when="1735"
+                                >雍正十三年</date>乙卯五月初二日酉時生<date calendar="#cal_CL" when="1792"
+                                >乾隆五十七年</date>壬子九月二十六日申時卒享年五十八</s>
+                        <pb n="6"/>　　　　　 　　<s>父<persName sameAs="#王裕之_17-2120_05">裕之</persName></s>
+                            　　<s>母蔡氏</s> 　　<s>室<persName>金氏眞鶴</persName><date calendar="#cal_CL"
+                                when="1740">乾隆五年</date>庚申九月十九日未時生<date calendar="#cal_CL"
+                                when="1781">乾隆四十六年</date>辛丑六月二十二日申時卒壽年四十二</s>
+                                　　<s>継室<persName>魏氏眞鶴</persName><date calendar="#cal_CL" when="1747"
+                                >乾隆十二年</date>丁卯十月初二日卯時生（復于父家）</s>
+                                　　<s>三室<persName>林氏眞龜</persName><date calendar="#cal_CL" when="1743"
+                                >乾隆八年</date>美亥七月初七日生<date calendar="#cal_CL" when="1811"
+                                >嘉慶十六年</date>辛未十二月初三日申時卒享壽六十九</s> 　　<s>長男<persName
+                                sameAs="#王朝銓_17-2120_07">朝銓</persName></s> 　　<s>次男<persName
+                                sameAs="#王朝鼎_17-2120_07">朝鼎</persName></s> 　　<s>三男<persName
+                                sameAs="#王朝鐸_17-2120_07">朝鐸</persName></s>
+                        <s>四男<persName sameAs="#王朝紳_17-2120_07">朝紳</persName></s> 　　<s>五男<persName
+                                sameAs="#王朝鋐_17-2120_07">朝鋐</persName></s> 　　<s>長女<persName
+                                sameAs="#真鶴c_17-2120_07">眞鶴</persName><date calendar="#cal_CL"
+                                when="1764">乾隆二十九年</date>甲申六月初五日亥時生</s> 　　<s>二女<persName
+                                sameAs="#真牛c_17-2120_07">眞牛</persName><date calendar="#cal_CL"
+                                when="1776">乾隆四十一年</date>丙申五月十四日辰時生</s> 　　<s>三女<persName
+                                sameAs="#乙真佐金_17-2120_07">乙眞佐金</persName><date calendar="#cal_CL"
+                                when="1784">乾隆四十九年</date>甲辰正月二十六日生</s></ab>
+                    <ab type="rank">　　　官　爵 <s><date when="1746">乾隆十一年</date>丙寅二月初三日挙<name
+                                type="rank">若秀才</name></s> 　<s><date calendar="#cal_CL" when="1749"
+                                >乾隆十四年</date>己巳二月二十七日陞<name type="rank">秀才</name>結欹髻</s> 　<s><date
+                                calendar="#cal_CL" when="1757">乾隆二十二年</date>丁丑四月十二日因　冊封全竣之賀陞<name
+                                type="rank">通事</name>擢<name type="rank">若里之子</name></s> 　<s><date
+                                calendar="#cal_CL" when="1761">乾隆二十六年</date>辛己十二月初三日陞<name
+                                type="rank">黄冠</name></s> 　<s><date calendar="#cal_CL" when="1766"
+                                >乾隆三十一年</date>丙戌二月十五日擢<name type="rank">當座</name>（是年授<name
+                                type="job">司憲書官</name>因而年俸准賜<name type="rank">都通事</name>俸祿）</s>
+                                　<s><date calendar="#cal_CL" when="1769">乾隆三十四年</date>己丑十二月初一日陞<name
+                                type="rank">都通事</name>擢<name type="rank">座敷</name></s> 　<s><date
+                                calendar="#cal_CL" when="1789">乾隆五十四年</date>己酉十二月十二日陞<name
+                                type="rank">中議大夫</name></s></ab>
+                    <ab type="achievement">　　　勲　庸 　<s><date calendar="#cal_CL" when="1761"
+                                >乾隆二十六年</date>辛己十二月初三日奉　命為<name type="job">漏刻看役</name></s> 　<s><date
+                                calendar="#cal_CL" when="1766">乾隆三十一年</date>丙戌二月十五日奉　王命為<name
+                                type="job">司憲書官</name>（年俸三斛原是六斛因行國中省約減之）</s> 　<s><date
+                                calendar="#cal_CL" when="1760">乾隆三十五年</date>庚寅七月二十七日因<persName><name
+                                    type="job">憲書官</name><name type="唐名"
+                                    >魏宗絢</name><roleName>高嶺里之子親雲上</roleName></persName>在叔母喪奉　憲令為<name
+                                type="job">署憲書官</name></s> 　<s><date calendar="#cal_CL" when="1771"
+                                >乾隆三十六年</date>辛卯十二月十一日奉　命再為<name type="job">憲書官</name>（年俸五斛）</s>
+                                　<s><date calendar="#cal_CL" when="1772"
+                                >乾隆三十七年</date>壬辰四月二十日奉　命為<name type="job"
+                            >講解師</name>（年俸七斛其内壹斛因國儉約減少勤職三年）</s> 　<s type="進貢"><date
+                                calendar="#cal_CL" when="1778-02-27"
+                                >乾隆四十三年戊戌二月初一日</date>為進貢事奉　使為<name type="job" sameAs="進貢存留通事"
+                                >存留通事</name><date when="1778-04-06">翌年己亥三月初十日</date>隨<persName><name
+                                    type="job">耳目官</name><name type="唐名"
+                                    >金有華</name><roleName>久志親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >蔡煥</name><roleName>志多伯親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開船<date calendar="#cal_CL"
+                                when="1778-04-06">同日</date>到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName><date calendar="#cal_CL" when="1778-04-16"
+                                >同二十日</date>在彼地開洋<date calendar="#cal_CL" when="1778-04-25"
+                                >同二十九日</date>到<placeName sameAs="#福州">閩</placeName><date
+                                calendar="#cal_CL" when="1778-05-13">同四月十七日</date>安挿<placeName
+                                sameAs="#福州琉球館">館驛</placeName>公務全竣<date calendar="#cal_CL"
+                                when="1781-01-22">庚子十二月二十八日</date>離驛登船<date calendar="#cal_CL"
+                                when="1781-02-23">辛丑二月初一日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開船因無順風従潮漸進處處下椗<date calendar="#cal_CL"
+                                when="1781-03-20">同二十六日</date>到<placeName>石塘地方</placeName><date
+                                calendar="#cal_CL" when="1781-03-25">同三月初一日</date>彼地開洋<date
+                                calendar="#cal_CL" when="1781-04-08"
+                                >同十五日</date>到<placeName>伊江島</placeName>地方下椗<date calendar="#cal_CL"
+                                when="1781-04-13">同二十日</date>歸到<placeName>那覇港</placeName></s>
+                        <s type="接貢"><date calendar="#cal_CL" when="1789-02-25"
+                                >乾隆五十四年己酉二月初一日</date>奉　使為<name type="job">接貢在船都通事</name><date
+                                calendar="#cal_CL" when="1790-08-02"
+                                    >翌年庚戌六月二十二日</date>口<persName><name type="job"
+                                    >才府</name><roleName>安仁屋里之子親雲上</roleName><forename type="名乗"
+                                    >日升</forename></persName>等<placeName sameAs="#那覇"
+                                >那覇</placeName>開船<date calendar="#cal_CL" when="1790-08-17"
+                                >七月初八日</date>抵<placeName>閩</placeName><date calendar="#cal_CL"
+                                when="1790-08-30">二十一日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>公務全竣<date calendar="#cal_CL" when="1791-05-28"
+                                >辛亥四月二十六日</date>離驛登船<date calendar="#cal_CL" when="1791-06-24"
+                                >五月二十三日</date><placeName sameAs="#五虎門">五虎門</placeName>開洋<date
+                                calendar="#cal_CL" when="1791-07-01">六月初一日</date>飄入<placeName
+                                sameAs="奄美大島">大島</placeName><date calendar="#cal_CL"
+                                when="1791-08-03">七月初四日</date>彼地開洋<date calendar="#cal_CL"
+                                when="1791-08-04">翌日</date>歸<placeName>那覇港</placeName></s>
+                    </ab>
+                    <ab type="marriage"> 　　　婚　嫁 　　<s>長男<persName sameAs="#王朝銓_17-2120_07"
+                                >朝銓</persName>娶<persName><name type="唐名"
+                                    >阮崇禮</name><roleName>宜部親雲上</roleName></persName>四女<persName>眞牛</persName></s>
+                                　　<s>三男<persName sameAs="#王朝鐸_17-2120_07"
+                                    >朝鐸</persName>娶<persName><name type="唐名"
+                                    >林盲〈育カ〉麟</name><roleName>石原通事親雲上</roleName></persName>次女<persName>眞鶴</persName></s>
+                                　　<s>長女<persName sameAs="#真鶴c_17-2120_07"
+                                    >眞鶴</persName>適<persName><name type="唐名"
+                                    >蒙昌睦</name><roleName>糸数筑登之親雲上</roleName><forename type="名乗"
+                                    >昌□</forename></persName></s> 　　<s>二女<persName
+                                sameAs="#真牛c_17-2120_07">眞牛</persName>適<persName><name type="唐名"
+                                    >毛良</name><roleName>安富祖里之子親雲上</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王延璜_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">廷璜</forename></s>
+                        <s>童名<addName type="童名">思徳</addName>字<addName type="字"
+                                >煥若</addName>　　　行一<date calendar="#cal_CL" when="1748"
+                                >乾隆十三年</date>戊辰閏七月二十三日辰時生<date calendar="#cal_CL" when="1754"
+                                >乾隆十九年</date>甲戌十一月初十日卯時死享年七</s> 　　<s>父<persName
+                                sameAs="#王三錫_17-2120_06">三鍚</persName></s>
+                        <pb n="7"/>　　　　　 　　<s>母<persName>班氏</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王廷瑛_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">廷瑛</forename></s> 　　<s>童名<addName type="童名"
+                                >百歳金</addName>字<addName type="字">修五</addName>　　　行一<date
+                                calendar="#cal_CL" when="1756">乾隆二十一年</date>丙子八月二十九日丑時生<date
+                                calendar="#cal_CL" when="1782">乾隆四十七</date>壬寅十一月初七日於<placeName
+                                sameAs="#宮古島">太平山</placeName>死享年二十七</s> 　　<s>父<persName
+                                sameAs="#王三錫_17-2120_06">三鍚</persName></s>
+                                　　<s>母<persName>班氏</persName></s>
+                    </ab>
+                    <ab type="rank"> 官　爵 　<s><date calendar="#cal_CL" when="1767"
+                                >乾隆三十二年</date>丁亥八月初二日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1760">乾隆三十五年</date>庚寅八月二十日陞<name
+                                type="rank">秀才</name>結欹髻</s>
+                    </ab>
+                    <ab type="achievement"> 勲　庸 　<s><date calendar="#cal_CL" when="1779"
+                                >乾隆四十四年</date>己亥二月十一日請乞　憲令為懲流<placeName sameAs="#宮古島"
+                                >太平山</placeName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王廷璋_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">廷璋</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">修光</addName>　　　行二<date
+                                calendar="#cal_CL" when="1758">乾隆二十三年</date>戊寅八月二十九日寅時生<date
+                                calendar="#cal_CL" when="1796">嘉慶元年</date>丙辰四月初五日亥時死享年三十九</s>
+                                　　<s>父<persName sameAs="#王三錫_17-2120_06">三鍚</persName></s>
+                                　　<s>母<persName>班氏</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1760"
+                                >乾隆三十五年</date>庚寅八月初六日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1772">乾隆三十七年</date>壬辰八月十三日結欹髻陞<name
+                                type="rank">秀才</name></s></ab>
+                    <ab type="achievement">　　　勲　庸 　<s><date calendar="#cal_CL" when="1785"
+                                >乾隆五十年</date>乙巳七月蒙罪為流<placeName sameAs="#宮古島">太平山</placeName></s>
+                                　<s><date calendar="#cal_CL" when="1789"
+                            >乾隆五十四年</date>己酉閏五月初七日蒙　恩回於本籍</s>
+                    </ab>
+                </div>
+                <div sameAs="#王秉乾_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">秉乾</forename></s> 　 <s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">健亭</addName>　　　行一<date
+                                calendar="#cal_CL" when="1754">乾隆十九年</date>甲戌十一月初二日申時生<date
+                                calendar="#cal_CL" when="1815">嘉慶二十年</date>乙亥八月二十三日奉　使到<placeName
+                                sameAs="#福州">閩</placeName>丁丑四月二十八日在彼地死享壽六十四</s> 　　<s>父<persName
+                                sameAs="#王三徳_17-2120_06">三徳</persName></s>
+                                　　<s>母<persName>梁氏眞鶴</persName></s>
+                                　　<s>室<persName>楊氏眞蒲戸</persName><date calendar="#cal_CL" when="1755"
+                                >乾隆二十年</date>乙亥九月初八日申時生<date calendar="#cal_CL" when="1830"
+                                >道光十年</date>庚寅九月初八日卒享壽七十六</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1764"
+                                >乾隆二十九</date>甲申八月初四日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1768">乾隆三十三年</date>戊子二月初三日結欹髻挙<name
+                                type="rank">秀才</name></s>
+                        <s><date calendar="#cal_CL" when="1780">乾隆四十五年</date>庚子二月初四日陞<name
+                                type="rank">通事</name>擢<name type="rank">若里之子</name></s>
+                        <s><date calendar="#cal_CL" when="1787">乾隆五十二年</date>丁未十二月初一日陞<name
+                                type="rank">黄冠</name></s>
+                        <s><date calendar="#cal_CL" when="1798">嘉慶三年</date>戊午十二月初一日擢<name
+                                type="rank">當座</name></s>
+                        <s><date calendar="#cal_CL" when="1799">嘉慶四年</date>己未三月初七日陞<name type="rank"
+                                >都通事</name>擢<name type="rank">座敷</name></s>
+                        <s><date calendar="#cal_CL" when="1805">嘉慶十年</date>乙丑十二月初一日陞<name
+                                type="rank">中議大夫</name></s>
+                    </ab>
+                    <ab type="achievemen"> 　　勲　庸 　<s type="勤学"><date calendar="#cal_CL" when="1777-06-29"
+                        >乾隆四十二年丁酉五月二十五日</date>請乞　憲令為<name type="job"
+                                    >讀書習禮</name>事隨<persName><name type="job" sameAs="接貢船都通事"
+                                    >接貢大通事</name><name type="唐名"
+                                    >程容光</name><roleName>名護親雲上</roleName></persName><date calendar="#cal_CL" when="1778-05-03">翌年戊戌四月初七日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開船同日到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName><date calendar="#cal_CL" when="1778-05-14">本月十八日</date>在彼地開洋<date calendar="#cal_CL" when="1778-05-27">五月初二日</date>到<placeName sameAs="#福州"
+                                >閩</placeName><date calendar="#cal_CL" when="1780-03-31">庚子二月二十六日</date>隨<persName><name type="job" sameAs="進貢二号船在船通事"
+                                    >進貢二號船脇通事</name><name type="唐名"
+                                    >王成績</name><roleName>國場親雲上</roleName></persName><placeName
+                                sameAs="#五虎門"
+                            >五虎門</placeName>開船因無順風從潮漸進到<placeName>三盤地方</placeName><date calendar="#cal_CL" when="1780">本月十五日</date>彼地開洋<date calendar="#cal_CL" when="1780-05-01">三月二十七日</date>歸國</s>
+                                　<s><date calendar="#cal_CL" when="1798"
+                                >嘉慶三年</date>戊午六月初五日奉　憲令為<name type="job"
+                            >西之平等講解師</name>勤職五年（聖主好學文風盛起大發　諭旨使唐榮撰四人始為公學及三平等師又着令三平等各建學堂日夜□□□習詩書備送奉米七斛）</s>
+                        <s><date calendar="#cal_CL" when="1804">嘉慶九年</date>甲子六月初一日奉　命為<name
+                                type="job">講解師</name>（年俸七斛勤職一年）</s>
+                        <pb n="8"/>　　　　　 　<s type="接貢"><date calendar="#cal_CL" when="1805-03-01"
+                                >嘉慶十年乙丑二月初一日</date>奉　使為<name type="job">接貢存留通事</name><date
+                                calendar="#cal_CL" when="1805-10-26">九月初五日</date>同<persName><name
+                                    type="job">才府</name><name type="唐名"
+                                    >毛著隆</name><roleName>村山里之子親雲上</roleName></persName><persName><name
+                                    type="job" sameAs="接貢船都通事">都通事</name><name type="唐名"
+                                    >鄭永泰</name><roleName>上□里之子親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開舡即日到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>候風<date calendar="#cal_CL" when="1805-11-01"
+                                >十一日</date>彼地放洋<date calendar="#cal_CL" when="1805-11-10"
+                                >二十日</date>到<placeName sameAs="#怡山院">怡山院</placeName><date
+                                calendar="#cal_CL" when="1805-11-25">十月初五日</date>安挿<placeName
+                                sameAs="#福州琉球館">館驛</placeName>公務全竣<date calendar="#cal_CL"
+                                when="1808-05-26">戊辰五月初二日</date>同冊封華官離驛登舟<date calendar="#cal_CL"
+                                when="1808-06-04">十一日</date>坐駕冊封貳號舡<placeName sameAs="#五虎門"
+                                >五虎門</placeName>一齊開舡<date calendar="#cal_CL" when="1808-06-10"
+                                >十七日</date>連U+F05B歸到<placeName>那覇港</placeName>坐駕冊封貳號舡之縁由記左<persName><name
+                                    type="job">迎接冊使大夫</name><name type="唐名"
+                                >蔡邦錦</name></persName>為稟明事切照<persName sameAs="#王秉乾_17-2120_07"><name
+                                    type="唐名">王秉乾</name>小渡</persName>充為<date calendar="#cal_CL"
+                                when="1805">乙丑</date><name type="job">接貢存留通事</name>　<date
+                                calendar="#cal_CL" when="1805-10-26">九月初五日</date>前赴<placeName
+                                sameAs="福建省">閩省</placeName>公務全竣要駕<date calendar="#cal_CL"
+                                when="1806">翌寅年</date>進貢頭號舡歸到本國所有貨物行李等項業経装載該舡丁<date
+                                calendar="#cal_CL" when="1807">卯年</date>接貢舡飄到<placeName sameAs="福建省"
+                                >閩省</placeName>属地<placeName>海壇地方</placeName>□礁破舡<persName><name
+                                    type="job"
+                                    >存留</name><roleName>志多伯親雲上</roleName></persName>被水溺死着令<persName><name>存留</name><roleName>宮城親雲上</roleName></persName>接項□□□着令該<persName
+                                sameAs="#王秉乾_17-2120_07">小渡</persName>駕冊封貳號舡歸國等由呈請<name type="job"
+                                >海防官</name>経蒙兪准隨該小□渡□載貨物行李搬運<placeName sameAs="#福州琉球館"
+                                >柔遠驛</placeName>既而勵精盡力妥竣冊封公務歸國不但此也至於歸後亦對同舡華官人等能盡禮節既見國俗之雅諸凡公務如此全竣誠可謂不凡功労似應遇将来願望時酌功挙用可也等縁由業経具稟朝廷己巳十月賞賜褒書以旌勤公務之功</s>
+                        <s><date calendar="#cal_CL" when="1813">嘉慶十八年</date>癸酉七月初五日奉　命為<name
+                                type="job">國学講解師</name>（年俸八斛勤職三年）</s>
+                        <s><date calendar="#cal_CL" when="1815">嘉慶二十年</date>乙亥八月二十三日奉　使為<name
+                                type="job">護送都通事</name>九月十六日同<persName><name type="job"
+                                    >才府</name><name type="唐名"
+                                    >馬超莘</name><roleName>板良敷里之子親雲上</roleName></persName><placeName
+                                sameAs="#那覇"
+                                >那覇</placeName>開舡駛到半洋陡逢暴風伐桅棄貨正是萬死一生幸頼　　天眷十月初四日飄到□来省高□府電白県隨蒙地方官賜米水及椗<placeName>閩</placeName>安挿於<placeName
+                                sameAs="#福州琉球館">柔遠驛</placeName>公務全竣歸國之時過落江水沈失身命</s>
+                    </ab>
+                </div>
+                <div sameAs="#王秉懿_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">秉懿</forename></s> 　　<s>童名<addName type="童名"
+                                >松金</addName>字<addName type="字">良亭</addName>　行二<date
+                                calendar="#cal_CL" when="1757"
+                            >乾隆二十二年</date>丁丑六月二十九日丑時生（舊名思徳避太子尊名改之）</s> 　　<s>父<persName
+                                sameAs="#王三徳_17-2120_06">三徳</persName></s>
+                                　　<s>母<persName>梁氏眞鶴</persName></s>
+                                　　<s>室<persName>梁氏眞伊奴</persName><date calendar="#cal_CL" when="1762"
+                                >乾隆二十七年</date>壬午八月初六日酉時生（復于父家）</s>
+                                　　<s>継室<persName>阮氏思戸</persName><date calendar="#cal_CL" when="1763"
+                                >乾隆二十八年</date>癸未十一月十八日生（復于父家）</s> 　　<s>長女<persName
+                                sameAs="#真牛a_17-2120_08">眞牛</persName><date calendar="#cal_CL"
+                                when="1781">乾隆四十六年</date>辛丑十一月二十八日戌時生</s> 　　<s>次女<persName
+                                sameAs="#真蒲戸a_17-2120_08">眞蒲戸</persName><date calendar="#cal_CL"
+                                when="1784">乾隆四十九年</date>甲辰閏三月二十日辰時生</s>
+                                　　<s>三女<persName>思戸</persName>乾隆六十一年丙辰二月二十一日辰時生</s>
+                                　　<s>四女<persName>眞呉勢</persName><date calendar="#cal_CL" when="1798"
+                                >嘉慶三年</date>戊午十二月初五日生</s>
+                        <s>五女<persName>武樽金</persName><date calendar="#cal_CL" when="1802"
+                                >嘉慶七年</date>壬戌二月初一日生</s>
+                    </ab>
+                    <ab type="rank"> 官　爵 　　　<s><date calendar="#cal_CL" when="1768"
+                                >乾隆三十三年</date>戊子二月初三日陞<name type="rank">若秀才</name></s> 　 <s><date
+                                calendar="#cal_CL" when="1771">乾隆三十六年</date>辛卯二月初一日結欹髻挙<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1785"
+                                >乾隆五十年</date>乙巳十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1792"
+                                >乾隆五十七年</date>壬子十二月初一日陞<name type="rank">黄冠</name></s> 　<s><date
+                                calendar="#cal_CL" when="1804">嘉慶九年</date>甲子十月二十七日擢<name type="rank"
+                                >當座</name></s></ab>
+                    <ab type="achievemen"> 勲　庸 <s type="勤学"><date calendar="#cal_CL" when="1784-08-19"
+                        >乾隆四十九年甲辰七月四日</date>因有進貢之便請乞　憲令為<name type="job"
+                                    >讀書習禮</name>事隨<persName><name type="job" sameAs="進貢二号船都通事"
+                                    >貳號船都通事</name><name type="唐名"
+                                    >鄭國樞</name><roleName>池宮城親雲上</roleName></persName><date calendar="#cal_CL" when="1785-05-17">翌年四月初九日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開船<date calendar="#cal_CL" when="1785-05-31">二十三日</date>抵<placeName sameAs="#福州"
+                                >閩</placeName>辛亥船主<placeName>泊村</placeName><roleName>比嘉筑登之</roleName><name
+                                sameAs="馬艦船">馬盤“〈ママ〉船</name>隻飄来<placeName sameAs="#福建省"
+                                >閩省</placeName><date calendar="#cal_CL" when="1785-10-15">九月十三日</date>奉　正副使令為其船通事<date calendar="#cal_CL" when="1786-01-29">十二月三十日</date>離驛登船<date calendar="#cal_CL" when="1786-04-04">翌年三月初六日</date><placeName
+                                sameAs="#五虎門"
+                                >五虎門</placeName>開船從□漸進<date calendar="#cal_CL" when="1786-05-16">四月十九日</date>在于<placeName>黄岐地方</placeName>放洋在洋遇風<date calendar="#cal_CL" when="1786-05-22">二十五日</date>飄入<placeName
+                                sameAs="#宮古島"
+                                >太平山地方</placeName><date calendar="#cal_CL" when="1786-05-30">五月初四日</date>彼地放洋<date calendar="#cal_CL" when="1786-06-04">九日</date>歸<placeName>那覇港</placeName></s> 　<s
+                            type="進貢"><date calendar="#cal_CL" when="1802-07-21"
+                                >嘉慶七年壬戌六月二十二日</date>奉　使為<name type="job" sameAs="進貢二号船総管"
+                                >進貢貳号船火長</name>隨<persName><name type="job">耳目官</name><name type="唐名"
+                                    >向銓</name><roleName>和宇慶親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >梁煥</name><roleName>安仁屋親雲上</roleName></persName><date
+                                calendar="#cal_CL" when="1802-11-01">十月初六日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開船即日到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName><date calendar="#cal_CL" when="1802-11-10"
+                                >十五日</date>見有順風一齊開洋駛到半洋陡逢逆風正是萬死一生幸頼　<pb n="9"/>天眷<date
+                                calendar="#cal_CL" when="1802-12-06"
+                                >十一月十二日</date>飄到<placeName>臺湾府</placeName>洋面擱礁破船空身逃命隨蒙地方老爺水陸護送<date
+                                calendar="#cal_CL" when="1803-03-01">翌年二月初八日</date>解到<placeName
+                                sameAs="#福州琉球館">閩驛</placeName>從時厥後速辨公務催得商船一隻装載少此公物<date
+                                calendar="#cal_CL" when="1803-07-04">五月十六日</date>離驛登舟<date
+                                calendar="#cal_CL" when="1803-07-20">六月初二日</date><placeName
+                                sameAs="#五虎門">五虎門</placeName>開洋<date calendar="#cal_CL"
+                                when="1803-07-27">初九日</date>歸到<placeName sameAs="#那覇"
+                            >那覇</placeName></s>
+                    </ab>
+                    <ab type="marriage"> 婚　嫁 　　<s>長女<persName sameAs="#真牛a_17-2120_08"
+                                    >眞牛</persName>適<persName><name type="唐名"
+                                    >蔡承勲</name><roleName>神山里之子</roleName></persName></s>
+                                　　<s>次女<persName sameAs="#真蒲戸a_17-2120_08"
+                                    >眞蒲戸</persName>適<persName><name type="唐名"
+                                    >蔡嘉義</name><roleName>大田里之子親雲上</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王秉謙_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">秉謙</forename></s>
+                        <s>童名<addName type="童名">思百歳</addName>字<addName type="字"
+                                >恭亭</addName>　　行三<date calendar="#cal_CL" when="1761"
+                            >乾隆二十六年</date>辛巳六月初十日生（舊名思五良避王上尊名改之）</s>
+                        <s>父<persName sameAs="#王三徳_">三徳</persName></s>
+                        <s>母<persName>梁氏</persName></s>
+                        <s>室<persName>鄭氏眞鶴</persName><date calendar="#cal_CL" when="1762"
+                                >乾隆二十七年</date>壬午四月初二日巳時生（復于父家）再来<date calendar="#cal_CL" when="1827"
+                                >道光七年</date>丁亥二月初七日死享壽六十六</s>
+                        <s>継室<persName>林氏眞滿</persName><date calendar="#cal_CL" when="1763"
+                                >乾隆二十八年</date>癸未六月十七日未時生（復于父家）</s>
+                        <s>長男<persName sameAs="#王世儀_17-2120_08">世儀</persName></s>
+                        <s>次男<persName sameAs="#王世範_17-2120_08">世範</persName></s>
+                        <s>三男<persName sameAs="#王世則_17-2120_08">世則</persName></s>
+                        <s>四男<persName sameAs="#王世模_17-2120_08">世模</persName></s>
+                        <s>長女<persName sameAs="#真鶴b_17-2120_08">眞鶴</persName><date
+                                calendar="#cal_CL" when="1783">乾隆四十八年</date>癸卯十月初一日寅時生<date
+                                calendar="#cal_CL" when="1831">道光十一年</date>辛卯九月十一日死享年四十九</s>
+                        <s>二女<persName sameAs="#真牛b_17-2120_08">眞牛</persName><date
+                                calendar="#cal_CL" when="1788">乾隆五十三年</date>戊申十一月初二日申時生<date
+                                calendar="#cal_CL" when="1791">乾隆五十六年</date>辛亥三月初七日殤享年四</s>
+                        <s>三女<persName>眞蒲戸</persName><date calendar="#cal_CL" when="1792"
+                                >乾隆五十七年</date>壬子四月十九日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1772"
+                                >乾隆三十七年</date>壬辰二月初一日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1775">乾隆四十年</date>乙未二月初七日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1789"
+                                >乾隆五十四年</date>己酉十二月十二日陞通事擢<name type="rank">若里之子</name></s>
+                                　<s><date calendar="#cal_CL" when="1792">乾隆五十七年</date>壬子十二月初一日陞<name
+                                type="rank">黄冠</name></s> 　<s><date calendar="#cal_CL" when="1797"
+                                >嘉慶二年</date>丁己十二月十二日擢<name type="rank">當座</name></s> 　<s><date
+                                calendar="#cal_CL" when="1799">嘉慶四年</date>己未九月十日陞都通事擢<name
+                                type="rank">座敷</name></s> 　<s><date calendar="#cal_CL" when="1823"
+                                >道光三年</date>癸未十二月初一日陞<name type="rank">中議大夫</name></s> 　<s><date
+                                calendar="#cal_CL" when="1830">道光十年</date>庚寅十二月初一日陞<name type="rank"
+                                >正議大夫</name></s> 　<s><date calendar="#cal_CL" when="1831"
+                                >道光十一年</date>辛卯十二月初一日擢<name type="rank">申口座</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　勲　庸 　<s><date calendar="#cal_CL" when="1792"
+                                >乾隆五十七年</date>壬子六月初一日奉　憲令為<name type="job">文組寄役</name></s> 　<s
+                            type="接貢"><date calendar="#cal_CL" when="1797-02-27"
+                                >嘉慶二年丁巳二月初一日</date>奉　使為<name type="job"
+                                    >接貢火長</name><date calendar="#cal_CL" when="1798-01-18">十二月初二日</date>隨<persName><name type="job">才府</name><name
+                                    type="唐名"
+                                    >夏廷璋</name><roleName>糸数親雲上</roleName></persName><persName><name
+                                    type="job">都通事</name><name type="唐名"
+                                    >阮翼</name><roleName>U+F0A6宮城里之子親雲上</roleName></persName><placeName
+                                sameAs="#那覇"
+                                >那覇</placeName>開舡即日到<placeName>馬齒山</placeName>湾泊伺風<date calendar="#cal_CL" when="1798-03-02">翌年正月十五日</date>見有順風該山放洋<date calendar="#cal_CL" when="1798-03-11">二十四日</date>到<placeName
+                                sameAs="#怡山院">怡山院</placeName><date calendar="#cal_CL" when="1798-03-18">二月初二日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>官僚相與日夜勵盡精力所有公務全竣<date calendar="#cal_CL" when="1798-07-01">五月十八日</date>離驛登舟因有海賊蜂起呈請兵舡護送<date calendar="#cal_CL" when="1798-08-06">六月二十五日</date><placeName
+                                    sameAs="#五虎門">五虎門</placeName>開舡硬到半洋因風不順<date calendar="#cal_CL" when="1798-08-14">七月初三日</date>飄到<placeName
+                                sameAs="#薩摩"
+                                        >薩州</placeName>諸凡事務照例悉行<date calendar="#cal_CL" when="1798-11-02">九月二十五日</date>彼地開舡遇風不順<date calendar="#cal_CL" when="1798-11-06">二十九日</date>到<placeName>大島赤木地方</placeName>湾泊<date calendar="#cal_CL" when="1798-11-08">十月初一日</date>彼島開舡<date calendar="#cal_CL" when="1798-11-10">初三日</date>歸到<placeName>那覇港</placeName>（是時奉有　憲牌本國將有册封大典從今以後不得貢船□乘夏至汛歸國多有效得應勵盡心力早竣公務乘汛歸來若踏舊□冬春歸國來則加罪譴等因某等體照牌内事理在閩無少怠惰始乘夏至之汛歸因蒙　褒將陞都通事擢座敷）</s>
+                                　<s><date calendar="#cal_CL" when="1804"
+                                >嘉慶九年</date>甲子四月初一日奉　憲令為<name type="job">南之平等講解師</name>勤職五年</s>
+                                　<s><date calendar="#cal_CL" when="1813"
+                                >嘉慶十八年</date>癸酉三月二十日奉　憲令為<name type="job">西之平等講解師</name>勤職五年</s> 　<s
+                            type="進貢"><date calendar="#cal_CL" when="1818-03-21"
+                                >嘉慶二十三年戊寅二月十五日</date>奉　使為<name type="jpb"
+                                    >進貢存留通事</name>隨<persName><name type="job">耳目官</name><name
+                                    type="唐名"
+                                    >毛維新</name><roleName>沢岻親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >鄭克新</name><roleName>宮城親雲上</roleName></persName>等<date
+                                calendar="#cal_CL" when="1818-10-21">九月二十二日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開舡<date calendar="#cal_CL"
+                                when="1818-10-28">二十九日</date>到<placeName sameAs="#福州"
+                                >閩</placeName><date calendar="#cal_CL" when="1818-11-02"
+                                >十月初四日</date>安挿<placeName sameAs="#福州琉球館">館驛</placeName>公務全竣<date
+                                calendar="#cal_CL" when="1820-06-13">庚辰五月初三日</date>離驛癸〈ママ〉舟<date
+                                calendar="#cal_CL" when="1820-06-20">十日</date><placeName
+                                sameAs="#五虎門">五<pb n="10"/>　　　　　虎門</placeName>開舡<date
+                                calendar="#cal_CL" when="1820-06-26"
+                                >十六日</date>歸到<placeName>那覇港</placeName>（是時遇萬壽期兼勤其職妥竣）</s>
+                        <s><date calendar="#cal_CL" when="1822">道光二年</date>壬午六月初一日奉　憲令為<name
+                                type="job">系正</name></s> 　<s><date calendar="#cal_CL" when="1823"
+                                >道光三年</date>癸未六月十日奉　使為<name type="job"
+                                    >返舡都通事</name>翌年三月十九日同<persName><name type="job">才府</name><name
+                                    type="唐名"
+                                >齊愈光</name><roleName>外間筑登之親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開舡二十四日到<placeName sameAs="#福州"
+                                >閩</placeName>四月初三日安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>派搭護送両舡月初一日離驛登舟初五日<placeName sameAs="#五虎門"
+                                >五虎門</placeName>開舡十五日歸到<placeName>那覇港</placeName></s>
+                        <s><date calendar="#cal_CL" when="1827">道光七年</date>丁亥二月十一日奉　命授<name
+                                type="job">長史司</name>（賜役知二十斛勤職三年）</s>
+                        <s type="接貢"><date calendar="#cal_CL" when="1829-03-05"
+                            >道光九年己丑二月初一日</date>奉　命為<name type="job"
+                                    >接貢都通事</name><date calendar="#cal_CL" when="1829-10-01">九月初四日</date>同<persName><name type="job">才府</name><name
+                                    type="唐名">翁邦柱</name><roleName>座間味里之子親雲上</roleName><forename
+                                    type="名乗">盛復</forename></persName>等<placeName sameAs="#那覇"
+                                >那覇</placeName>開舡<date calendar="#cal_CL" when="1829-10-05">同八日</date>到于<placeName>北U+F101</placeName><date calendar="#cal_CL" when="1829-10-08">同十一日</date>到于<placeName>嵛山</placeName><date calendar="#cal_CL" when="1829-10-09">同十二日</date>湾泊<placeName
+                                sameAs="#定海">定海</placeName><date calendar="#cal_CL" when="1829-10-10">同十三日</date>到<placeName sameAs="#怡山院"
+                                >怡山院</placeName><date calendar="#cal_CL" when="1829-10-18">同二十一日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName><date calendar="#cal_CL" when="1830-06-08">翌年閏四月十八日</date>公務全竣離驛登舡同<date calendar="#cal_CL" when="1830-06-19">二十九日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開舡<date calendar="#cal_CL" when="1830-06-25">五月初六日</date>回國 </s>
+                    </ab>
+                    <ab type="fief"> 　　　采　地 　<s><date calendar="#cal_CL" when="1835"
+                                >道光十五年</date>乙未七月二十四日拝授<placeName>今歸仁間切仲宗根</placeName>地頭職</s>
+                    </ab>
+                    <ab type="marriage"> 　　　婚　嫁 　　<s>長男<persName sameAs="#王世儀_17-2120_08"
+                                >世儀</persName>娶<persName><name type="唐名"
+                                    >蔡濂</name><roleName>神山里之子親雲上</roleName>次女眞蒲戸</persName></s>
+                                　　<s>次男<persName sameAs="#王世範_17-2120_08"
+                                    >世範</persName>娶<persName><surname>毛氏</surname><roleName>奥間里之子親雲上</roleName><forename
+                                    type="名乗">大壮</forename>女眞龜</persName></s> 　 <s>三男<persName
+                                sameAs="#王世則_17-2120_08">世則</persName>娶<persName><name type="唐名"
+                                    >鄭擇中</name><roleName>登川里之子親雲上</roleName>長女武樽金</persName></s> 　
+                                <s>四男<persName sameAs="#王世模_17-2120_08"
+                                    >世模</persName>娶<persName><name type="唐名"
+                                    >曾道</name><roleName>砂邊親雲上</roleName>長女眞鶴</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王秉典_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">秉典</forename></s> 　　<s>童名<addName type="童名"
+                                >思龜</addName>字<addName type="字">寛亭</addName>　　　行四<date
+                                calendar="#cal_CL" when="1767">乾隆三十二年</date>丁亥十一月二十五日寅時生<date
+                                calendar="#cal_CL" when="1829">道光九年</date>己丑八月二十五日死享壽六十三</s>
+                                　　<s>父<persName sameAs="#王三徳_17-2120_06">三徳</persName></s>
+                                　　<s>母<persName>梁氏</persName></s>
+                                　　<s>室<persName>楊氏武樽金</persName><date calendar="#cal_CL" when="1767"
+                                >乾隆三十二年</date>丁亥閏七月二十一日生</s> 　　<s>長男<persName
+                                sameAs="#王賜纓_17-2120_08">賜纓</persName></s>
+                                　　<s>長女<persName>眞鶴</persName><date calendar="#cal_CL" when="1788"
+                                >乾隆五十三年</date>戊申正月初六日午時生</s> 　　<s>二女<persName>思戸</persName><date
+                                calendar="#cal_CL" when="1789">乾隆五十四年</date>己酉八月初二日酉時生</s>
+                    </ab>
+                    <ab type="rank"> 　　　　官　爵 　<s><date calendar="#cal_CL" when="1778"
+                                >乾隆四十三年</date>戊戌八月初二日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1781">乾隆四十六年</date>辛丑八月十一日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1795"
+                                >乾隆六十年</date>乙卯十二月初一日陞通事擢<name type="rank">若里之子</name></s>
+                    </ab>
+                    <ab type="achievemen"> 　　　勲　庸 　<s><date calendar="#cal_CL" when="1808"
+                                >嘉慶十三年</date>戊辰十月二十四日奉　命為<name type="job">漏刻看役</name></s>
+                    </ab>
+                    <ab type="marriage">　　　婚　嫁 　　<s>長男<persName sameAs="#王賜纓_17-2120_08"
+                                >賜纓</persName>娶<persName><name type="唐名"
+                                    >雍興昇</name><roleName>伊波筑登之親雲上</roleName>長女眞鶴</persName></s>
+                                　　<s>長女<persName>眞鶴</persName>適<persName><name type="唐名"
+                                    >蔡國棟</name><roleName>平川通事</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王秉和_17-2120_07">
+                    <ab> 　　<s>七世<forename type="諱">秉和</forename></s> 　　<s>童名<addName type="童名"
+                                >思次良</addName>字<addName type="字">泰亭</addName>　　　行五<date
+                                calendar="#cal_CL" when="1773">乾隆三十八年</date>癸巳閏三月初六日子時生</s>
+                                　　<s>父<persName sameAs="#王三徳_17-2120_06">三徳</persName></s>
+                                　　<s>母<persName>梁氏</persName></s>
+                                　　<s>室<persName>林氏眞鶴</persName><date calendar="#cal_CL" when="1774"
+                                >乾隆三十九年</date>甲午十月初一日生<date calendar="#cal_CL" when="1823"
+                                >道光三年</date>癸未五月十六日死享年五十</s> 　　<s>長男<persName
+                                sameAs="#王春暉_17-2020_08">春暉</persName></s> 　　<s>次男<persName
+                                sameAs="#王春曦_17-2020_08">春曦</persName></s> 　　<s>三男<persName
+                                sameAs="#王春暘_17-2120_08">春暘</persName></s>
+                                　　<s>長女<persName>眞鶴</persName><date calendar="#cal_CL" when="1803"
+                                >嘉慶八年</date>癸亥十一月朔日生</s> 　　<s>次女<persName>眞嘉戸</persName><date
+                                calendar="#cal_CL" when="1814">嘉慶十九年</date>甲戌十二月二十一日生</s>
+                                　　<s>三女<persName>眞蒲戸</persName><date calendar="#cal_CL" when="1820"
+                                >嘉慶二十五年</date>庚辰七月初八日生</s>
+                    </ab>
+                    <ab type="rank">
+                        <pb n="11"/> 　　　官　爵 　<s><date calendar="#cal_CL" when="1784"
+                                >乾隆四十九年</date>甲辰二月初三日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1787">乾隆五十二年</date>丁未二月十九日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1807"
+                                >嘉慶十二年</date>丁卯十二月初一日陞通事擢<name type="rank">若里之子</name></s> 　<s><date
+                                calendar="#cal_CL" when="1829">道光九年</date>己丑九月初二日因有　<persName
+                                sameAs="尚育王">世子</persName>婚姻之賀陞<name type="rank">黄冠</name></s>
+                    </ab>
+                    <ab type="marriage"> 　　　婚　嫁 　　<s>長男<persName sameAs="#王春暉_17-2020_08"
+                                >春暉</persName>娶<persName><name type="唐名"
+                                    >林文明</name><roleName>石原通事親雲上</roleName>長女眞牛</persName></s>
+                                　　<s>次男<persName sameAs="#王春曦_17-2020_08"
+                                >春曦</persName>娶<placeName>立岸村</placeName><persName><surname>陳氏</surname><roleName>外間筑登之親雲上</roleName><forename
+                                    type="名乗">宏睦</forename>三女思戸</persName></s>
+                                　　<s>長女<persName>眞鶴</persName>適<persName><name type="唐名"
+                                    >毛克進</name><roleName>奥間里之子親雲上</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王朝銓_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">朝銓</forename></s> 　　<s>童名<addName type="童名"
+                                >吉松</addName>字<addName type="字">得中</addName>　　　行一<date
+                                calendar="#cal_CL" when="1758">乾隆二十三年</date>戊寅八月二十九日寅時生<date
+                                calendar="#cal_CL" when="1824">道光四年</date>甲申三月初七日巳時死享壽六十七</s>
+                                　　<s>父<persName sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                                　　<s>母<persName>金氏</persName></s>
+                                　　<s>室<persName>阮氏眞牛</persName><date calendar="#cal_CL" when="1758"
+                                >乾隆二十三年</date>戊寅八月初四日卯時生</s> 　　<s>長男<persName
+                                sameAs="#王受祉_17-2120_08">受祉</persName></s> 　　<s>次男<persName
+                                sameAs="#王受祐_17-2120_08">受祐</persName></s> 　　<s>三男<persName
+                                sameAs="#王受福_17-2120_08">受福</persName></s> 　　<s>長女<persName
+                                sameAs="#真鶴a_17-2120_08">眞鶴</persName><date calendar="#cal_CL"
+                                when="1783">乾隆四十八年</date>癸卯正月十五日未時生<date calendar="#cal_CL"
+                                when="1785">乾隆五十年</date>乙巳四月初三日死享年三歳</s>
+                                　　<s>次女<persName>眞牛</persName><date calendar="#cal_CL" when="1799"
+                                >嘉慶四年</date>己未八月十七日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1769"
+                                >乾隆三十四年</date>己丑八月初四日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1772">乾隆三十七年</date>壬辰八月十三日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1783"
+                                >乾隆四十八年</date>癸卯十二月初一日陞通事擢<name type="rank">若里之子</name></s>
+                                　<s><date calendar="#cal_CL" when="1785">乾隆五十年</date>乙巳十二月初一日擢<name
+                                type="rank">黄冠</name></s> 　<s><date calendar="#cal_CL" when="1818"
+                                >嘉慶二十三年</date>戊寅十二月初一日擢<name type="rank">當座</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　勲　庸 　<s><date calendar="#cal_CL" when="1785"
+                                >乾隆五十年</date>乙巳十二月初一日奉　命為<name type="job">漏刻看役</name></s> 　<s
+                            type="勤学"><date calendar="#cal_CL" when="1789"
+                                >乾隆五十四年己酉四月</date>因有接貢之便諸乞　憲令為<name type="job"
+                                >讀書習禮事</name>隨父<date calendar="#cal_CL" when="1790-08-02">翌年庚戌六月二十二日</date><placeName sameAs="#那覇"
+                                >那覇</placeName>開船<date calendar="#cal_CL" when="1790-08-17">七月初八日</date>抵<placeName sameAs="#福州"
+                                >閩</placeName><date calendar="#cal_CL" when="1791-06-24">辛亥五月二十三日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開船<date calendar="#cal_CL" when="1791-07-01">六月初一日</date>飄入<placeName>大島</placeName><date calendar="#cal_CL" when="1791-08-03">七月初四日</date>彼地開洋<date calendar="#cal_CL" when="1791-08-04">翌日</date>歸<placeName>那覇港</placeName></s>
+                                　<s><date calendar="#cal_CL" when="1805">嘉慶十年</date>乙丑六月初一日奉　命為<name
+                                type="job">憲書官相附</name>（隨職賜年俸祿三斛）</s> 　<s type="接貢"><date
+                                    calendar="#cal_CL" when="1817-05-02">嘉慶二十二年丁丑三月二十八日</date>奉　使為<name
+                                type="job" sameAs="接貢船総管">接貢火長</name><date calendar="#cal_CL" when="1817-10-16">九月初六日</date>隨<persName><name
+                                    type="job">才府</name><name type="唐名"
+                                    >向元麟</name><roleName>宜野山里之子親雲上</roleName></persName><persName><name
+                                    type="job" sameAs="接貢船都通事">都通事</name><name type="唐名"
+                                    >魏崇仁</name><roleName>高嶺里之子親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開船<date calendar="#cal_CL" when="1817-10-24">十四日</date>到<placeName sameAs="#福州">閩</placeName><date calendar="#cal_CL" when="1817-11-01">二十二日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>公務全竣<date calendar="#cal_CL" when="1818-06-06">翌年五月初三日</date>離驛登舟<date calendar="#cal_CL" when="1818-06-19">十六日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開舡<date calendar="#cal_CL" when="1818-07-02">二十九日</date>記到<placeName>薩州秋目地方野間獄之下</placeName>湾泊<date calendar="#cal_CL" when="1818-07-07">六月初五日</date>彼地起椗即日進到<placeName>坊之津</placeName><date calendar="#cal_CL" when="1818-07-09">初七日</date>挽到<placeName>山川港</placeName><date calendar="#cal_CL" when="1818-07-10">翌八日</date>起椗<date calendar="#cal_CL" when="1818-07-11">翌九日</date>収到<placeName>麑島前濱</placeName>即奉　憲令安挿<placeName>琉館</placeName>搬卸貨物<date calendar="#cal_CL" when="1818-10-04">九月初五日</date>許歸<date calendar="#cal_CL" when="1818-11-03">十月初五日</date>彼濱開船<date calendar="#cal_CL" when="1818-10-08">初八日</date>回到<placeName>山川</placeName>候風<date calendar="#cal_CL" when="1818-11-14">十六日</date>開船<date calendar="#cal_CL" when="1818-11-19">二十一日</date>歸到<placeName>那覇港</placeName></s>
+                        　</ab>
+                    <ab type="marriage">　　婚　嫁 　　<s>長男<persName sameAs="#王受祉_17-2120_08"
+                                >受祉</persName>娶<persName><name type="唐名"
+                                    >林家桐</name><roleName>阿波連通事親雲上</roleName>五女思戸</persName></s>
+                                　　<s>次男<persName sameAs="#王受祐_17-2120_08"
+                                    >受祐</persName>娶<persName><name type="唐名"
+                                    >金永裕</name><roleName>古謝里之子</roleName>長女眞龜</persName></s>
+                                　　<s>次女<persName>眞牛</persName>適<persName><name type="唐名"
+                                    >蔡輔國</name><roleName>仲井眞里之子親雲上</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王朝鼎_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">朝鼎</forename></s> 　　<s>童名<addName type="童名"
+                                >思龜</addName>字<addName type="字">得銘</addName>　　　行二<date
+                                calendar="#cal_CL" when="1762">乾隆二十七年</date>壬午正月十日卯時生<date
+                                calendar="#cal_CL" when="1784">乾隆四十九年</date>甲辰五月十一日死享年二十三</s>
+                                　　<s>父<persName sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                        <pb n="12"/>　　　　　 　　<s>母<persName>金氏</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1773"
+                                >乾隆三十八年</date>癸巳八月初三日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1776">乾隆四十一年</date>丙申二月初一日結欹髻陞<name
+                                type="rank">秀才</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王朝鐸_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">朝鐸</forename></s> 　　<s>童名<addName type="童名"
+                                >松金</addName>字<addName type="字">得度</addName>　　　行三<date
+                                calendar="#cal_CL" when="1767"
+                                >乾隆三十二年</date>丁亥正月十六日丑時生（舊名思五良避王上尊名改之）<date calendar="#cal_CL"
+                                when="1800">嘉慶五年</date>庚申十月十六日死享年三十四</s> 　　<s>父<persName
+                                sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                                　　<s>母<persName>金氏</persName></s>
+                                　　<s>室<persName>林氏眞鶴</persName><date calendar="#cal_CL" when="1768"
+                                >乾隆三十三年</date>戊子八月初九日丑時生<date calendar="#cal_CL" when="1827"
+                                >道光七年</date>丁亥正月初一日死享年六十</s> 　　<s>長女<persName>眞牛</persName><date
+                                calendar="#cal_CL" when="1789">乾隆五十四年</date>己酉六月初五日辰時生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1778"
+                                >乾隆四十三年</date>戊戌二月初二日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1781">乾隆四十六年</date>辛丑二月初八日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1795"
+                                >乾隆六十年</date>乙卯十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1798"
+                                >嘉慶三年</date>戊午四月初七日陞<name type="rank">黄冠</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　勲　庸 　<s><date calendar="#cal_CL" when="1798"
+                                >嘉慶三年</date>戊午四月初七日奉　命為<name type="job">漏刻看役</name></s>
+                    </ab>
+                    <ab type="marriage">　　　婚　嫁 　　<s>長女<persName>眞牛</persName>適<persName><name
+                                    type="唐名">鄭依禮</name><roleName>上原里之子親雲上</roleName></persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王朝紳_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">朝紳</forename></s> 　　<s>童名<addName type="童名"
+                                >思百歳</addName>字<addName type="字">得錦</addName>　　　行四<date
+                                calendar="#cal_CL" when="1769">乾隆三十四年</date>己丑六月初一日丑時生<date
+                                calendar="#cal_CL" when="1779">乾隆四十四年</date>己亥四月初七日殤享年十一</s>
+                                　　<s>父<persName sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                        <s>母<persName>金氏</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王朝鋐_17-2120_07">
+                    <ab>
+                        <s>七世<forename type="諱">朝鋐</forename></s> 　　<s>童名<addName type="童名"
+                                >樽金</addName>字<addName type="字">得用</addName>　　　行五<date
+                                calendar="#cal_CL" when="1773">乾隆三十八年</date>癸巳四月初十日亥時生<date
+                                calendar="#cal_CL" when="1776">乾隆四十一年</date>丙申十月二十八日未時殤享年四</s>
+                                　　<s>父<persName sameAs="#王三秀_17-2120_06">三秀</persName></s>
+                                　　<s>母<persName>金氏</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王世儀_17-2120_08">
+                    <ab>
+                        <s> 八世<forename type="諱">世儀</forename></s> 　　<s>童名<addName type="童名"
+                                >思百歳</addName>字<addName type="字">子美</addName>　　　行一<date
+                                calendar="#cal_CL" when="1779">乾隆四十四年</date>己亥十月初八日戌時生<date
+                                calendar="#cal_CL" when="1807">嘉慶十二年</date>丁卯十二月二十六日死享年二十九</s>
+                                　　<s>父<persName sameAs="#王秉謙_17-2120_07">秉謙</persName></s>
+                                　　<s>母<persName>鄭氏</persName></s>
+                                　　<s>室<persName>蔡氏眞蒲戸</persName><date calendar="#cal_CL" when="1784"
+                                >乾隆四十九年</date>甲辰十一月二十日戌時生</s> 　　<s>長女<persName>眞呉勢</persName><date
+                                calendar="#cal_CL" when="1803">嘉慶八年</date>癸亥十月二十二日生<date
+                                calendar="#cal_CL" when="1828">道光八年</date>戊子十二月初二日死享年二十六</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1790"
+                                >乾隆五十五年</date>庚戌八月二十三日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1793">乾隆五十八年</date>癸丑八月初一日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1805"
+                                >嘉慶十年</date>乙丑十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　　勲　庸 　<s type="勤学"><date calendar="#cal_CL" when="1805"
+                        >嘉慶十年乙丑三月</date>因有接貢之便請乞　憲令為<name type="job"
+                                    >讀書習禮事</name>隨<persName><name type="job" sameAs="接貢船都通事"
+                                    >大通事</name><name type="唐名"
+                                    >鄭氷泰</name><roleName>上原里之子親雲上</roleName></persName><date calendar="#cal_CL" when="1805-10-26">九月初五日</date><placeName
+                                sameAs="#那覇">那覇</placeName>開船即日到<placeName sameAs="#慶良間"
+                                >馬齒山</placeName>候風<date calendar="#cal_CL" when="1805-11-01">十一日</date>彼 <pb n="13"/> 地放洋<date calendar="#cal_CL" when="1805-11-10">二十日</date>到<placeName sameAs="#福州">閩</placeName><date calendar="#cal_CL" when="1805-11-25">十月初五日</date>安挿<placeName
+                                sameAs="#福州琉球館">館驛</placeName>在彼地死</s>
+                    </ab>
+                </div>
+                <div sameAs="#王世範_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">世範</forename></s> 　　<s>童名<addName type="童名"
+                                >思龜</addName>字<addName type="字">子良</addName>　　　行二<date
+                                calendar="#cal_CL" when="1786">乾隆五十一年</date>丙午閏七月初十日戌時生</s>
+                                　　<s>父<persName sameAs="#王秉謙_17-2120_07">秉謙</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                            　　<s>室<persName>毛氏眞龜</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1797"
+                                >嘉慶二年</date>丁巳二月初四日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1800">嘉慶五年</date>庚申十二月十八日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1813"
+                                >嘉慶十八年</date>癸酉十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑十二月初一日陞<name type="rank">黄冠</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王世則_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">世則</forename></s> 　　<s>童名<addName type="童名"
+                                >樽金</addName>字<addName type="字">子善</addName>　　　行三<date
+                                calendar="#cal_CL" when="1797">嘉慶二年</date>丁巳十二月初五日生</s>
+                                　　<s>父<persName sameAs="#王秉謙_17-2120_07">秉謙</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                                　　<s>室<persName>鄭氏武樽金</persName><date calendar="#cal_CL" when="1801"
+                                >嘉慶六年</date>辛酉八月十日辰時生</s> 　　<s>長男<persName>民協</persName></s>
+                                　　<s>次男<persName>民澤</persName>（童名<addName type="童名"
+                                >思百歳</addName><date calendar="#cal_CL" when="1822"
+                            >道光二年</date>壬午十月初三日生五年乙酉十一月初三日夭享年四）</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1808"
+                                >嘉慶十三年</date>戊辰八月十二日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1811">嘉慶十六年</date>辛未八月十五日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1826"
+                                >道光六年</date>丙戌十二月一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑十二月初一日擢<name type="rank">黄冠</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　　勲　庸 　<s type="勤学"><date calendar="#cal_CL" when="1823-12"
+                        >道光三年癸未十一月</date>因有返舡之便為<name type="job"
+                                >讀書習禮</name>事隨父<date calendar="#cal_CL" when="1824-04-17">翌年三月十九日</date><placeName sameAs="#那覇"
+                                >那覇</placeName>開舡<date calendar="#cal_CL" when="1824-04-22">二十四日</date>到<placeName sameAs="#福州"
+                                    >閩</placeName><date calendar="#cal_CL" when="1830-09">同十年庚寅八月</date><persName>東村<roleName>東恩納筑登之</roleName></persName>馬艦舡隻飄到<placeName
+                                sameAs="#福建省">閩省</placeName><date calendar="#cal_CL" when="1830-12-27">十一月十三日</date>謹承<name type="job" sameAs="存留通事"
+                                >存留官</name>吩咐辦理該舡公務<date calendar="#cal_CL" when="1831-06-03">翌年四月二十三日</date>恭奉　正副使令充為其舡<name type="job"
+                                >通事</name><date calendar="#cal_CL" when="1831-06-24">五月十五日</date>離驛登舟同<date calendar="#cal_CL" when="1831-07-04">二十五日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開洋風不順<date calendar="#cal_CL" when="1831-07-06">同二十七日</date>漂到<placeName sameAs="#伊是名島"
+                                >葉璧〈ママ〉山地方</placeName><date calendar="#cal_CL" when="1831-08-21">七月十四日</date>彼地放洋即日歸到<placeName>那覇港</placeName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王世模_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">世模</forename></s> 　　<s>童名<addName type="童名"
+                                >思武太</addName>字<addName type="字">子佳</addName>　　　行四<date
+                                calendar="#cal_CL" when="1801">嘉慶六年</date>辛酉十二月二十六日生</s>
+                                　　<s>父<persName sameAs="#王秉謙_17-2120_07">秉謙</persName></s>
+                                　　<s>母<persName>鄭氏</persName></s>
+                                　　<s>室<persName>曾氏眞鶴</persName><date calendar="#cal_CL" when="1801"
+                                >嘉慶六年</date>辛酉十一月初五日辰時生</s>
+                                　　<s>長男<persName>忠哲</persName>（童名<addName type="童名"
+                                >思百歳</addName><date calendar="#cal_CL" when="1821"
+                            >道光元年</date>辛巳九月二十日卯時生五年乙酉十二月初九日夭享年五）</s>
+                                　　<s>次男<persName>忠誠</persName>（童名<addName type="童名"
+                                >思苅目</addName><date calendar="#cal_CL" when="1823"
+                            >道光三年</date>癸未正月初五日丑時生五年乙酉十一月二十九日夭享年三）</s>
+                                　　<s>三男<persName>忠徳</persName></s>
+                            　　<s>四男<persName>忠順</persName></s> 　　<s>長女<persName>眞鶴</persName><date
+                                calendar="#cal_CL" when="1831">道光十一年</date>辛卯五月十三日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1812"
+                                >嘉慶十七年</date>壬申八月初五日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1815">嘉慶二十年</date>乙亥十月初四日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1832"
+                                >道光十二年</date>壬辰十二月初一日陞<name type="rank">黄冠</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王賜纓_17-2120_08">
+                    <ab>
+                        <s>八世<forename sameAs="#王賜纓_17-2120_08">賜纓</forename></s>
+                        <pb n="14"/>　　　　　 　　<s>童名<addName type="童名">眞蒲戸</addName>字<addName type="字"
+                                >承惠</addName>　　　行一<date calendar="#cal_CL" when="1791"
+                                >乾隆五十六年</date>辛亥五月十日生<date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑九月初十日死享年三十九</s> 　　<s>父<persName
+                                sameAs="#王秉典_17-2120_07">秉典</persName></s>
+                                　　<s>母<persName>楊氏</persName></s>
+                                　　<s>室<persName>雍氏眞鶴</persName><date calendar="#cal_CL" when="1796"
+                                >嘉慶元年</date>丙辰十月初四日生</s> 　　<s>長男<persName>肇基</persName>（童名<addName
+                                type="童名">思亀</addName><date calendar="#cal_CL" when="1822"
+                                >道光二年</date>壬午二月二十九日生同五年乙酉十二月二十六日夭享年四）</s>
+                                　　<s>次男<persName>肇業</persName></s>
+                                　　<s>長女<persName>武樽金</persName><date calendar="#cal_CL" when="1827"
+                                >道光七年</date>丁亥九月初四日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1802"
+                                >嘉慶七年</date>壬戌二月初八日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1805">嘉慶十年</date>乙丑二月初五日結欹髻陞<name
+                                type="rank">秀才</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王春暉_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">春暉</forename>（舊唐名<name type="唐名" sameAs="王國桂"
+                                >國桂</name>因字姓惡改春暉）</s> 　　<s>童名<addName type="童名"
+                                >思百歳</addName>字<addName type="字">長煦</addName>　　　行一<date
+                                calendar="#cal_CL" when="1798">嘉慶三年</date>戊午正月初一日生</s>
+                                　　<s>父<persName sameAs="#王秉和_17-2120_07">秉和</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                                　　<s>室<persName>林氏眞牛</persName><date calendar="#cal_CL" when="1798"
+                                >嘉慶三年</date>戊午二月初九日生</s> 　　<s>長女<persName>思戸</persName><date
+                                calendar="#cal_CL" when="1821">道光元年</date>辛巳八月十九日生</s>
+                                　　<s>次女<persName>眞牛</persName><date calendar="#cal_CL" when="1824"
+                                >道光四年</date>甲申六月初五日生</s> 　　<s>三女<persName>眞龜</persName><date
+                                calendar="#cal_CL" when="1827">道光七年</date>丁亥八月十二日生</s>
+                                　　<s>長男<persName>思道</persName></s> 　
+                                <s>四女<persName>眞鶴</persName><date calendar="#cal_CL" when="1832"
+                                >道光十二年</date>壬辰十二月十二日生</s> 　　<s>次男<persName>兆麒</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1813"
+                                >嘉慶十八年</date>癸酉二月初三日結欹髻陞<name type="rank"
+                            >秀才</name>（歳是十六因生子證文遲故掟陞秀才）</s> 　<s><date calendar="#cal_CL" when="1821"
+                                >道光元年</date>辛巳十二月二十三日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑九月初二日因有　<persName sameAs="尚育王">世子</persName>婚姻之賀陞<name
+                                type="rank">黄冠</name></s>
+                    </ab>
+                    <ab type="achievemen">　　　勲　庸 　<s type="勤学"><date calendar="#cal_CL" when="1818"
+                        >嘉慶二十三年戊寅四月</date>因有進貢之便講乞　憲令為<name type="job"
+                                >讀書習禮</name>事隨伯父<persName sameAs="#王秉謙_17-2120_07"
+                                >秉謙</persName><date calendar="#cal_CL" when="1818-10-21">九月二十二日</date><placeName sameAs="#那覇"
+                                >那覇</placeName>開舡<date calendar="#cal_CL" when="1818-10-28">二十九日</date>到<placeName sameAs="#福州"
+                                >閩</placeName><date calendar="#cal_CL" when="1818-11-02">十月初四日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName>□□五月初二日離驛登舟十日<placeName sameAs="#五虎門"
+                                >五虎門</placeName>開舡十六日歸到<placeName>那覇港</placeName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王春曦_17-2020_08">
+                    <ab>
+                        <s>八世<forename type="諱">春曦</forename></s> 　　<s>童名<addName type="童名"
+                                >松金</addName>字<addName type="字">長燿</addName>　　　行二<date
+                                calendar="#cal_CL" when="1801">嘉慶六年</date>辛酉二月初三日生</s>
+                                　　<s>父<persName sameAs="#王秉和_17-2120_07">秉和</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                                　　<s>室<persName>陳氏思戸</persName><date calendar="#cal_CL" when="1809"
+                                >嘉慶十四年</date>己巳六月初六日生</s> 　　<s>長男<persName>嘉忠</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1813"
+                                >嘉慶十八年</date>壬申二月十三日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1815">嘉慶二十年</date>乙亥二月十五日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1829"
+                                >道光九年</date>己丑九月初二日因有　<persName sameAs="尚育王">世子</persName>婚姻之賀陞<name
+                                type="rank">通事</name>擢<name type="rank">若里之子</name></s> 　<s><date
+                                calendar="#cal_CL" when="1832">道光十二年</date>壬辰十二月初一日陞<name
+                                type="rank">黄冠</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王春暘_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">春暘</forename></s> 　　<s>童名<addName type="童名"
+                                >思武太</addName>字<addName type="字">長燦</addName>　　　行三<date
+                                calendar="#cal_CL" when="1808">嘉慶十三年</date>戊辰四月初一日生</s>
+                                　　<s>父<persName sameAs="#王秉和_17-2120_07">秉和</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                    </ab>
+                    <ab type="rank">　官　爵 　<s><date calendar="#cal_CL" when="1820"
+                                >嘉慶二十五年</date>庚辰八月初六日陞<name type="rank">若秀才</name></s>
+                        <pb n="15"/>　　　　　 　<s><date calendar="#cal_CL" when="1822"
+                                >道光二年</date>壬午六月初一日結欹髻陞<name type="rank">秀才</name></s>
+                    </ab>
+                </div>
+                <div sameAs="#王受祉_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">受祉</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">兒齒</addName>　　　行一<date
+                                calendar="#cal_CL" when="1778">乾隆四十三年</date>戊戌七月十四日辰時生</s>
+                                　　<s>父<persName sameAs="#王朝銓_17-2120_07">朝銓</persName></s>
+                                　　<s>母<persName>阮氏</persName></s>
+                                　　<s>室<persName>林氏思戸</persName><date calendar="#cal_CL" when="1782"
+                                >乾隆四十七年</date>壬寅十月二十日生</s> 　　<s>長男<persName>為棟</persName></s>
+                                　　<s>長女<persName>眞蒲</persName><date calendar="#cal_CL" when="1817"
+                                >嘉慶二十二年</date>丁丑九月初七日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1789"
+                                >乾隆五十四年</date>己酉八月初八日為<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1792">乾隆五十七年</date>壬子八月二十九日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1807"
+                                >嘉慶十二年</date>丁卯十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s> 　<s><date calendar="#cal_CL" when="1823"
+                                >道光三年</date>癸未十二月初一日陞<name type="rank">黄冠</name></s> 　<s><date
+                                calendar="#cal_CL" when="1830">道光十年</date>庚寅十二月初一日擢<name type="rank"
+                                >當</name>座</s>
+                    </ab>
+                    <ab type="achievemen">　　　勲　庸 　<s type="進貢"><date calendar="#cal_CL"
+                                when="1828-03-16">道光八年戊子二月初一日</date>奉　使為<name type="job"
+                                sameAs="進貢頭号船総管">進貢頭號舡火長</name><date calendar="#cal_CL"
+                                when="1828-10-17">九月初九日</date>隨<persName><name type="job"
+                                    >耳目官</name><name type="唐名"
+                                >毛世輝</name><roleName>我謝親雲上</roleName></persName><persName><name
+                                    type="job">正議大夫</name><name type="唐名"
+                                    >楊徳昌</name><roleName>野原親雲上</roleName></persName><placeName
+                                sameAs="#那覇">那覇</placeName>開舡<date calendar="#cal_CL"
+                                when="1828-10-24">十六日</date>飄□<placeName>浙江温州府大漁汛地方</placeName><date
+                                calendar="#cal_CL" when="1828-10-25">翌日</date>彼地起椗即日湾泊<placeName
+                                sameAs="#定海">定海地方</placeName><date calendar="#cal_CL"
+                                when="1828-10-26">翌日</date>彼地起椗即日到<placeName sameAs="#怡山院"
+                                >怡山院地方</placeName>湾泊<date calendar="#cal_CL" when="1828-11-07"
+                                >十月初一日</date>安挿<placeName sameAs="#福州琉球館">館驛</placeName><date
+                                calendar="#cal_CL" when="1829-06-03">翌年五月初二日</date>離驛登舟<date
+                                calendar="#cal_CL" when="1829-06-28">二十七日</date><placeName
+                                sameAs="#五虎門">五虎門</placeName>開舡<date calendar="#cal_CL"
+                                when="1829-07-02">六月初二日</date>歸到<placeName>那覇港</placeName></s>
+                    </ab>
+                    <ab type="marriage">　　　婚　嫁 　　<s>長男<persName>為棟</persName>娶<persName><name
+                                    type="唐名"
+                            >密世昌</name><roleName>志良筑登之</roleName>長女眞滿</persName></s>
+                    </ab>
+                </div>
+                <div sameAs="#王受祐_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">受祐</forename></s> 　　<s>童名<addName type="童名"
+                                >松金</addName>字<addName type="字">象齒</addName>　　　行二<date
+                                calendar="#cal_CL" when="1786">乾隆五十一年</date>丙午十一月十九日戌時生</s>
+                                　　<s>父<persName sameAs="#王朝銓_17-2120_07">朝銓</persName></s>
+                                　　<s>母<persName>玩氏</persName></s>
+                                　　<s>室<persName>金氏眞龜</persName><date calendar="#cal_CL" when="1790"
+                                >乾隆五十五年</date>庚戌二月二十日生</s> 　　<s>長男<persName>維新</persName></s>
+                                　　<s>長女<persName>眞鶴</persName><date calendar="#cal_CL" when="1809"
+                                >嘉慶十四年</date>己巳十二月二十日亥時生</s> 　　<s>次女<persName>眞牛</persName><date
+                                calendar="#cal_CL" when="1814">嘉慶十九年</date>甲戌九月十三日亥時生</s>
+                                　　<s>三女<persName>眞呉勢</persName><date calendar="#cal_CL" when="1817"
+                                >嘉慶二十二年</date>丁丑二月二十一日子時生</s> 　　<s>四女<persName>眞龜</persName><date
+                                calendar="#cal_CL" when="1819">嘉慶二十四年</date>己卯九月十一日巳時生</s>
+                                　　<s>五女<persName>思戸</persName><date calendar="#cal_CL" when="1821"
+                                >道光元年</date>辛巳八月初五日辰時生</s> 　　<s>六女<persName>眞蒲戸</persName><date
+                                calendar="#cal_CL" when="1827">道光七年</date>丁亥二月初五日卯時生</s>
+                                　　<s>次男<persName>維楨</persName></s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1797"
+                            >嘉慶二年</date>丁巳八月十三日陞若秀才</s> 　<s><date calendar="#cal_CL" when="1800"
+                                >嘉慶五年</date>庚申八月十三日結欹髻陞秀才</s> 　<s><date calendar="#cal_CL"
+                                when="1814">嘉慶十九年</date>甲戌十二月初一日陞通事擢若里之子</s> 　<s><date
+                                calendar="#cal_CL" when="1829">道光九年</date>己丑十二月初一日陞黄冠</s>
+                    </ab>
+                </div>
+                <div sameAs="#王受福_17-2120_08">
+                    <ab>
+                        <s>八世<forename type="諱">受福</forename></s> 　　<s>童名<addName type="童名"
+                                >樽金</addName>字<addName type="字">素齒</addName>　　　行三<date
+                                calendar="#cal_CL" when="1790">乾隆五十五年</date>庚戌六月二十六日子時生<date
+                                calendar="#cal_CL" when="1797">嘉慶二年</date>丁巳四月十一日死享年八</s>
+                                　　<s>父<persName sameAs="#王朝銓_17-2120_07">朝銓</persName></s>
+                                　　<s>母<persName>院氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">民協</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName>必達</addName>　　　行一<date calendar="#cal_CL"
+                                when="1820">嘉慶二十五年</date>庚辰九月十七日生</s>
+                        <pb n="16"/>　　　　　 　　<s>父<persName sameAs="#王世則_17-2120_08">世則</persName></s>
+                                　　<s>母<persName>鄭氏</persName></s>
+                    </ab>
+                    <ab type="rank"> 官　爵 　<s><date calendar="#cal_CL" when="1831"
+                                >道光十一年</date>辛卯八月十一日陞<name type="rank">若秀才</name></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">忠徳</forename></s> 　　<s>童名<addName type="童名"
+                                >眞三良</addName>字<addName type="字">得温</addName>　　　行三<date
+                                calendar="#cal_CL" when="1825">道光五年</date>乙酉四月十四日生</s>
+                                　　<s>父<persName sameAs="#王世模_17-2120_08">世模</persName></s>
+                                　　<s>母<persName>曾氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">忠順</forename></s> 　　<s>童名<addName type="童名"
+                                >樽金</addName>字<addName type="字">得志</addName>　　　行四<date
+                                calendar="#cal_CL" when="1828">道光八年</date>戊子七月十八日生</s>
+                                　　<s>父<persName sameAs="#王世模_17-2120_08">世模</persName></s>
+                                　　<s>母<persName>曾氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">肇業</forename></s> 　　<s>童名<addName type="童名"
+                                >眞三良</addName>字<addName type="字">善継</addName>　　　行二<date
+                                calendar="#cal_CL" when="1829">道光九年</date>己丑正月十三日巳時生</s>
+                                　　<s>父<persName sameAs="#王賜纓_17-2120_08">賜纓</persName></s>
+                                　　<s>母<persName>雍氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">思道</forename></s> 　　<s>童名<addName type="童名"
+                                >思百歳</addName>字<addName type="字">昌治</addName>　　　行一<date
+                                calendar="#cal_CL" when="1830">道光十年</date>庚寅閏四月二十九日卯時生<date
+                                calendar="#cal_CL" when="1832">道光十二年</date>壬辰八月初八日殤享年三</s>
+                                　　<s>父<persName sameAs="#王春暉_17-2020_08">春暉</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">兆麒</forename></s> 　　<s>童名<addName type="童名"
+                                >樽金</addName>字<addName type="字">文明</addName>　　　行二<date
+                                calendar="#cal_CL" when="1835">道光十五年</date>乙未八月初一日戌時生</s>
+                                　　<s>父<persName sameAs="#王春暉_17-2020_08">春暉</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">嘉忠</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">賜爵</addName>　　　行一<date
+                                calendar="#cal_CL" when="1830">道光十年</date>庚寅九月十二日卯時生</s>
+                                　　<s>父<persName sameAs="#王春曦_17-2020_08">春曦</persName></s>
+                                　　<s>母<persName>陳氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">為棟</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">世禄</addName>　　　行一<date
+                                calendar="#cal_CL" when="1805">嘉慶十年</date>乙丑閏六月二十三日子時生</s>
+                                　　<s>父<persName sameAs="#王受祉_17-2120_08">受祉</persName></s>
+                                　　<s>母<persName>林氏</persName></s>
+                                　　<s>室<persName>密氏眞滿</persName><date calendar="#cal_CL" when="1809"
+                                >嘉慶十四年</date>己巳十一月二十□日生</s> 　　<s>長男<persName>之綱</persName></s>
+                                　　<s>長女<persName>眞鶴</persName><date calendar="#cal_CL" when="1826"
+                                >道光六年</date>丙戌九月二十三日生</s> 　　<s>次女<persName>眞牛</persName><date
+                                calendar="#cal_CL" when="1831">道光十一年</date>辛卯三月初五日生</s>
+                    </ab>
+                    <ab type="rank">　　　官　爵 　<s><date calendar="#cal_CL" when="1816"
+                                >嘉慶二十一年</date>丙子四月十二日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1819">嘉慶二十四年</date>乙卯三月初七日結欹髻陞<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1825"
+                                >道光五年</date>乙酉六月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s></ab>
+                    <ab type="achievemen"> 勲　庸 　<s><date calendar="#cal_CL" when="1825"
+                                >道光五年</date>乙酉六月初一日奉　命為<name type="job">漢字御右筆相附</name>（隨職賜年俸禄四斛）</s>
+                        <pb n="17"/>　　　　 　<s type="勤学"><date calendar="#cal_CL" when="1828"
+                            >道光八年戊子八月</date>因有進貢之便為<name type="job"
+                                >讀書習禮事</name>隨父<date calendar="#cal_CL" when="1828-10-17">九月初九日</date><placeName sameAs="#那覇"
+                                >那覇</placeName>開舡<date calendar="#cal_CL" when="1828-10-24">十六日</date>飄到<placeName>浙江温州府大漁汛地方</placeName><date calendar="#cal_CL" when="1828-10-25">翌日</date>彼地起椗即日湾泊<placeName
+                                sameAs="#定海">定海地方</placeName><date calendar="#cal_CL" when="1828-10-26">翌日</date>彼地起椗即日到<placeName sameAs="#怡山院"
+                                >怡山院地方</placeName>湾泊<date calendar="#cal_CL" when="1828-11-07">十月初一日</date>安挿<placeName sameAs="#福州琉球館"
+                                >館驛</placeName><date calendar="#cal_CL" when="1829-06-02">翌年五月初二日</date>離解登舟<date calendar="#cal_CL" when="1829-06-28">二十七日</date><placeName sameAs="#五虎門"
+                                >五虎門</placeName>開舡<date calendar="#cal_CL" when="1829-07-02">六月初二日</date>歸到<placeName>那覇港</placeName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">維新</forename></s> 　　<s>童名<addName type="童名"
+                                >松金</addName>字<addName type="字">顕榮</addName>　　　行一<date
+                                calendar="#cal_CL" when="1812">嘉慶十七年</date>壬申五月初一日酉時生</s>
+                                　　<s>父<persName sameAs="#王受祐_17-2120_08">受祐</persName></s>
+                                　　<s>母<persName>金氏</persName></s>
+                    </ab>
+                    <ab type="rank"> 官　爵 　<s><date calendar="#cal_CL" when="1823"
+                                >道光三年</date>癸未二月十二日陞<name type="rank">若秀才</name></s> 　<s><date
+                                calendar="#cal_CL" when="1826">道光六年</date>丙戌二月二十三日結欹髻座<name
+                                type="rank">秀才</name></s> 　<s><date calendar="#cal_CL" when="1835"
+                                >道光十五年</date>乙未十二月初一日陞<name type="rank">通事</name>擢<name type="rank"
+                                >若里之子</name></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>九世<forename type="諱">維楨</forename></s> 　　<s>童名<addName type="童名"
+                                >眞三良</addName>字<addName type="字">頭功</addName>　　行二<date
+                                calendar="#cal_CL" when="1830">道光十年</date>庚寅四月十五日己時生</s>
+                                　　<s>父<persName sameAs="#王受祐_17-2120_08">受祐</persName></s>
+                                　　<s>母<persName>金氏</persName></s>
+                    </ab>
+                </div>
+                <div>
+                    <ab>
+                        <s>十世<forename type="諱">之綱</forename></s> 　　<s>童名<addName type="童名"
+                                >眞蒲戸</addName>字<addName type="字">惟徳</addName>　　　行一<date
+                                calendar="#cal_CL" when="1829">道光九年</date>己丑□月二十六日丑時生</s>
+                                　　<s>父<persName>為棟</persName></s> 　　<s>母<persName>密氏</persName></s>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
